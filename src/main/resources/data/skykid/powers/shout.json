@@ -1,0 +1,403 @@
+{
+  "type": "origins:active_self",
+  "hidden": true,
+  "entity_action": {
+    "type": "origins:if_else_list",
+    "actions": [
+      {
+        "condition": {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+            "type": "origins:sneaking",
+            "inverted": true
+            },
+            {
+              "type": "origins:origin",
+              "layer": "skykid:shouts",
+              "origin": "skykid:default"
+            }
+          ]
+        },
+        "action": {
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:execute_command",
+              "command": "playsound skykid:default player @a ~ ~ ~ 0.8 1"
+            },
+            {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:glowing",
+                "duration": 5,
+                "show_icon": false,
+                "show_particles": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition": {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+            "type": "origins:sneaking"
+            },
+            {
+              "type": "origins:origin",
+              "layer": "skykid:shouts",
+              "origin": "skykid:default"
+            }
+          ]
+        },
+        "action": {
+          "type": "origins:execute_command",
+          "command": "playsound skykid:default player @a ~ ~ ~ 0.8 1"
+        }
+      },
+      {
+        "condition": {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+            "type": "origins:sneaking",
+            "inverted": true
+            },
+            {
+              "type": "origins:origin",
+              "layer": "skykid:shouts",
+              "origin": "skykid:bird"
+            }
+          ]
+        },
+        "action": {
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:execute_command",
+              "command": "playsound skykid:bird player @a ~ ~ ~ 0.8 1"
+            },
+            {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:glowing",
+                "duration": 5,
+                "show_icon": false,
+                "show_particles": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition": {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+            "type": "origins:sneaking"
+            },
+            {
+              "type": "origins:origin",
+              "layer": "skykid:shouts",
+              "origin": "skykid:bird"
+            }
+          ]
+        },
+        "action": {
+          "type": "origins:execute_command",
+          "command": "playsound skykid:bird player @a ~ ~ ~ 0.8 1"
+        }
+      },
+      {
+        "condition": {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+            "type": "origins:sneaking",
+            "inverted": true
+            },
+            {
+              "type": "origins:origin",
+              "layer": "skykid:shouts",
+              "origin": "skykid:crab"
+            }
+          ]
+        },
+        "action": {
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:execute_command",
+              "command": "playsound skykid:crab player @a ~ ~ ~ 0.8 1"
+            },
+            {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:glowing",
+                "duration": 5,
+                "show_icon": false,
+                "show_particles": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition": {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+            "type": "origins:sneaking"
+            },
+            {
+              "type": "origins:origin",
+              "layer": "skykid:shouts",
+              "origin": "skykid:crab"
+            }
+          ]
+        },
+        "action": {
+          "type": "origins:execute_command",
+          "command": "playsound skykid:crab player @a ~ ~ ~ 0.8 1"
+        }
+      },
+      {
+        "condition": {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+            "type": "origins:sneaking",
+            "inverted": true
+            },
+            {
+              "type": "origins:origin",
+              "layer": "skykid:shouts",
+              "origin": "skykid:ghost"
+            }
+          ]
+        },
+        "action": {
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:execute_command",
+              "command": "playsound skykid:ghost player @a ~ ~ ~ 0.8 1"
+            },
+            {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:glowing",
+                "duration": 5,
+                "show_icon": false,
+                "show_particles": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition": {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+            "type": "origins:sneaking"
+            },
+            {
+              "type": "origins:origin",
+              "layer": "skykid:shouts",
+              "origin": "skykid:ghost"
+            }
+          ]
+        },
+        "action": {
+          "type": "origins:execute_command",
+          "command": "playsound skykid:ghost player @a ~ ~ ~ 0.8 1"
+        }
+      },
+      {
+        "condition": {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+            "type": "origins:sneaking",
+            "inverted": true
+            },
+            {
+              "type": "origins:origin",
+              "layer": "skykid:shouts",
+              "origin": "skykid:whale"
+            }
+          ]
+        },
+        "action": {
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:execute_command",
+              "command": "playsound skykid:whale player @a ~ ~ ~ 0.8 1"
+            },
+            {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:glowing",
+                "duration": 5,
+                "show_icon": false,
+                "show_particles": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition": {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+            "type": "origins:sneaking"
+            },
+            {
+              "type": "origins:origin",
+              "layer": "skykid:shouts",
+              "origin": "skykid:whale"
+            }
+          ]
+        },
+        "action": {
+          "type": "origins:execute_command",
+          "command": "playsound skykid:whale player @a ~ ~ ~ 0.8 1"
+        }
+      },
+      {
+        "condition": {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+            "type": "origins:sneaking",
+            "inverted": true
+            },
+            {
+              "type": "origins:origin",
+              "layer": "skykid:shouts",
+              "origin": "skykid:jelly"
+            }
+          ]
+        },
+        "action": {
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:execute_command",
+              "command": "playsound skykid:jelly player @a ~ ~ ~ 0.8 1"
+            },
+            {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:glowing",
+                "duration": 5,
+                "show_icon": false,
+                "show_particles": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition": {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+            "type": "origins:sneaking"
+            },
+            {
+              "type": "origins:origin",
+              "layer": "skykid:shouts",
+              "origin": "skykid:jelly"
+            }
+          ]
+        },
+        "action": {
+          "type": "origins:execute_command",
+          "command": "playsound skykid:jelly player @a ~ ~ ~ 0.8 1"
+        }
+      },
+      {
+        "condition": {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+            "type": "origins:sneaking",
+            "inverted": true
+            },
+            {
+              "type": "origins:origin",
+              "layer": "skykid:shouts",
+              "origin": "skykid:manta"
+            }
+          ]
+        },
+        "action": {
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:execute_command",
+              "command": "playsound skykid:manta player @a ~ ~ ~ 0.8 1"
+            },
+            {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:glowing",
+                "duration": 5,
+                "show_icon": false,
+                "show_particles": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition": {
+          "type": "origins:and",
+          "conditions":
+          [
+            {
+            "type": "origins:sneaking"
+            },
+            {
+              "type": "origins:origin",
+              "layer": "skykid:shouts",
+              "origin": "skykid:manta"
+            }
+          ]
+        },
+        "action": {
+          "type": "origins:execute_command",
+          "command": "playsound skykid:manta player @a ~ ~ ~ 0.8 1"
+        }
+      }
+    ]
+  },
+  "cooldown": 4,
+  "hud_render": {
+    "should_render": false,
+    "bar_index": 4
+  },
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  }
+}

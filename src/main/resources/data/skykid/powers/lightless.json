@@ -1,0 +1,16 @@
+{
+  "type": "origins:prevent_item_use",
+  "hidden": true,
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "item": "minecraft:flint_and_steel"
+    }
+  },
+  "condition": {
+    "type": "origins:resource",
+    "resource": "skykid:armor_resource",
+    "comparison": "==",
+    "compare_to": "0"
+  }
+}

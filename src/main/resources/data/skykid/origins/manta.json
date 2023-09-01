@@ -1,0 +1,10 @@
+{
+	"name": "Manta Call",
+	"description": " ",
+	"powers": [],
+	"icon": {
+		"item": "minecraft:red_candle"
+	},
+	"order": 7,
+	"impact": 0
+}

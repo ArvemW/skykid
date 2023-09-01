@@ -1,0 +1,10 @@
+{
+	"name": "Whale Call",
+	"description": " ",
+	"powers": [],
+	"icon": {
+		"item": "minecraft:red_candle"
+	},
+	"order": 5,
+	"impact": 0
+}

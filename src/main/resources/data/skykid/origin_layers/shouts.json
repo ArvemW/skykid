@@ -1,0 +1,25 @@
+{
+    "replace": false,
+    "allow_random": true,
+    "name": "call",
+    "order": 4,
+    "enabled": true,
+    "origins": [
+        {
+            "condition": {
+                "type": "origins:origin",
+                "layer": "origins:origin",
+                "origin": "skykid:sky_kid"
+            },
+            "origins": [
+                "skykid:default",
+                "skykid:bird",
+                "skykid:crab",
+                "skykid:ghost",
+                "skykid:whale",
+                "skykid:jelly",
+                "skykid:manta"
+            ]
+        }
+    ]
+}

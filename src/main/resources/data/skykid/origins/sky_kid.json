@@ -1,0 +1,25 @@
+
+{
+	"powers": [
+		"skykid:light",
+		"skykid:depletion",
+		"skykid:armor",
+		"skykid:armor_2",
+		"skykid:cape",
+		"skykid:wing_boost",
+		"skykid:shout",
+		"skykid:healing_call",
+		"skykid:child_height",
+		"skykid:health",
+		"skykid:lightweight",
+		"skykid:lightless",
+		"skykid:knockback",
+		"skykid:heartbeat",
+		"skykid:shield_restrict"
+	],
+	"icon": {
+		"item": "minecraft:red_candle"
+	},
+	"order": 1,
+	"impact": 2
+}

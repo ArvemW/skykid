@@ -1,0 +1,10 @@
+{
+	"name": "Default Call",
+	"description": " ",
+	"powers": [],
+	"icon": {
+		"item": "minecraft:red_candle"
+	},
+	"order": 1,
+	"impact": 0
+}

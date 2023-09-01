@@ -1,0 +1,11 @@
+
+{
+    "replace": false,
+    "values": [
+    "minecraft:glow_lichen",
+    "minecraft:glow_berries",
+    "minecraft:glow_item_frame",
+    "minecraft:glowstone_dust",
+    "minecraft:glow_ink_sac"
+    ]
+  }

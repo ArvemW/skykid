@@ -1,0 +1,53 @@
+{
+	"schemaVersion": 1,
+	"id": "skykid",
+	"version": "${version}",
+	"name": "Sky Kid",
+	"description": "This mod adds an Origin to be a Child of The Light from Sky: COTL with the Origins mod.",
+	"authors": [
+		"Arvem"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/sky-origins"
+	},
+	"license": "All Rights Reserved",
+	"icon": "assets/skykid/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "arvem.skykid.Skykid",
+				"adapter": "kotlin"
+			}
+		],
+		"client": [
+			{
+				"value": "arvem.skykid.SkykidClient",
+				"adapter": "kotlin"
+			}
+		],
+		"fabric-datagen": [
+			{
+				"value": "arvem.skykid.SkykidDataGenerator",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"mixins": [
+      "skykid.mixins.json",
+		{
+			"config": "skykid.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"fabric-language-kotlin": ">=1.9.0"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

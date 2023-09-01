@@ -1,0 +1,4539 @@
+{
+   "type": "origins:multiple",
+   "end_void": {
+      "type": "origins:action_over_time",
+      "entity_action": {
+         "type": "origins:change_resource",
+         "resource": "skykid:armor_resource",
+         "change": 1
+      },
+      "condition": {
+         "type": "origins:and",
+         "conditions": [
+            {
+               "type": "origins:in_block",
+               "block_condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:height",
+                        "compare_to": 0,
+                        "comparison": "<="
+                     }
+                  ]
+               }
+            },
+            {
+               "type": "origins:dimension",
+               "dimension": "minecraft:the_end"
+            }
+         ]
+      },
+      "interval": 2
+   },
+   "main_wl_prime": {
+      "type": "origins:action_over_time",
+      "entity_action": {
+         "type": "origins:change_resource",
+         "resource": "skykid:armor_resource",
+         "change": 5
+      },
+      "condition": {
+         "type": "origins:and",
+         "conditions": [
+            {
+               "type": "origins:equipped_item",
+               "equipment_slot": "mainhand",
+               "item_condition": {
+                  "type": "origins:ingredient",
+                  "ingredient": {
+                     "tag": "skykid:prime_sources"
+                  }
+               }
+            },
+            {
+               "type": "origins:equipped_item",
+               "equipment_slot": "offhand",
+               "item_condition": {
+                  "type": "origins:ingredient",
+                  "ingredient": {
+                     "item": "skykid:winged_light"
+                  }
+               }
+            }
+         ]
+      },
+      "interval": 10
+   },
+   "main_prime": {
+      "type": "origins:action_over_time",
+      "entity_action": {
+         "type": "origins:change_resource",
+         "resource": "skykid:armor_resource",
+         "change": 3
+      },
+      "condition": {
+         "type": "origins:equipped_item",
+         "equipment_slot": "mainhand",
+         "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+               "tag": "skykid:prime_sources"
+            }
+         }
+      },
+      "interval": 10
+   },
+   "main_wl_average": {
+      "type": "origins:action_over_time",
+      "entity_action": {
+         "type": "origins:change_resource",
+         "resource": "skykid:armor_resource",
+         "change": 4
+      },
+      "condition": {
+         "type": "origins:and",
+         "conditions": [
+            {
+               "type": "origins:equipped_item",
+               "equipment_slot": "mainhand",
+               "item_condition": {
+                  "type": "origins:ingredient",
+                  "ingredient": {
+                     "tag": "skykid:average_sources"
+                  }
+               }
+            },
+            {
+               "type": "origins:equipped_item",
+               "equipment_slot": "offhand",
+               "item_condition": {
+                  "type": "origins:ingredient",
+                  "ingredient": {
+                     "item": "skykid:winged_light"
+                  }
+               }
+            }
+         ]
+      },
+      "interval": 10
+   },
+   "main_average": {
+      "type": "origins:action_over_time",
+      "entity_action": {
+         "type": "origins:change_resource",
+         "resource": "skykid:armor_resource",
+         "change": 2
+      },
+      "condition": {
+         "type": "origins:equipped_item",
+         "equipment_slot": "mainhand",
+         "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+               "tag": "skykid:average_sources"
+            }
+         }
+      },
+      "interval": 10
+   },
+   "main_wl_weak": {
+      "type": "origins:action_over_time",
+      "entity_action": {
+         "type": "origins:change_resource",
+         "resource": "skykid:armor_resource",
+         "change": 3
+      },
+      "condition": {
+         "type": "origins:and",
+         "conditions": [
+            {
+               "type": "origins:equipped_item",
+               "equipment_slot": "mainhand",
+               "item_condition": {
+                  "type": "origins:ingredient",
+                  "ingredient": {
+                     "tag": "skykid:weak_sources"
+                  }
+               }
+            },
+            {
+               "type": "origins:equipped_item",
+               "equipment_slot": "offhand",
+               "item_condition": {
+                  "type": "origins:ingredient",
+                  "ingredient": {
+                     "item": "skykid:winged_light"
+                  }
+               }
+            }
+         ]
+      },
+      "interval": 10
+   },
+   "main_weak": {
+      "type": "origins:action_over_time",
+      "entity_action": {
+         "type": "origins:change_resource",
+         "resource": "skykid:armor_resource",
+         "change": 1
+      },
+      "condition": {
+         "type": "origins:equipped_item",
+         "equipment_slot": "mainhand",
+         "item_condition": {
+            "type": "origins:or",
+            "conditions": [
+               {
+                  "type": "origins:ingredient",
+                  "ingredient": {
+                     "tag": "skykid:weak_sources"
+                  }
+               },
+               {
+                  "type": "origins:ingredient",
+                  "ingredient": {
+                     "tag": "minecraft:candles"
+                  }
+               }
+            ]
+         }
+      },
+      "interval": 10
+   },
+   "offhand_prime": {
+      "type": "origins:action_over_time",
+      "entity_action": {
+         "type": "origins:change_resource",
+         "resource": "skykid:armor_resource",
+         "change": 3
+      },
+      "condition": {
+         "type": "origins:equipped_item",
+         "equipment_slot": "offhand",
+         "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+               "tag": "skykid:prime_sources"
+            }
+         }
+      },
+      "interval": 10
+   },
+   "offhand_average": {
+      "type": "origins:action_over_time",
+      "entity_action": {
+         "type": "origins:change_resource",
+         "resource": "skykid:armor_resource",
+         "change": 2
+      },
+      "condition": {
+         "type": "origins:equipped_item",
+         "equipment_slot": "offhand",
+         "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+               "tag": "skykid:average_sources"
+            }
+         }
+      },
+      "interval": 10
+   },
+   "offhand_weak": {
+      "type": "origins:action_over_time",
+      "entity_action": {
+         "type": "origins:change_resource",
+         "resource": "skykid:armor_resource",
+         "change": 1
+      },
+      "condition": {
+         "type": "origins:equipped_item",
+         "equipment_slot": "offhand",
+         "item_condition": {
+            "type": "origins:or",
+            "conditions": [
+               {
+                  "type": "origins:ingredient",
+                  "ingredient": {
+                     "tag": "skykid:weak_sources"
+                  }
+               },
+               {
+                  "type": "origins:ingredient",
+                  "ingredient": {
+                     "tag": "minecraft:candles"
+                  }
+               }
+            ]
+         }
+      },
+      "interval": 10
+   },
+   "light_gain": {
+      "type": "origins:action_over_time",
+      "interval": 5,
+      "entity_action": {
+         "type": "origins:if_else_list",
+         "actions": [
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:and",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "minecraft:candle_cakes"
+                              },
+                              {
+                                 "type": "origins:block_state",
+                                 "property": "lit",
+                                 "value": true
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": ">=",
+                        "compare_to": 1
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 40
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "offhand",
+                        "item_condition": {
+                           "type": "origins:ingredient",
+                           "ingredient": {
+                              "item": "skykid:winged_light"
+                           }
+                        }
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:prime_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "4",
+                                       "comparison": "==",
+                                       "compare_to": 4
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": ">=",
+                        "compare_to": 3
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 16
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "offhand",
+                        "item_condition": {
+                           "type": "origins:ingredient",
+                           "ingredient": {
+                              "item": "skykid:winged_light"
+                           }
+                        }
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:prime_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "4",
+                                       "comparison": "==",
+                                       "compare_to": 4
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 2
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:and",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:candles"
+                              },
+                              {
+                                 "type": "origins:block_state",
+                                 "property": "lit",
+                                 "value": true
+                              },
+                              {
+                                 "type": "origins:block_state",
+                                 "property": "candles",
+                                 "enum": "3",
+                                 "comparison": "==",
+                                 "compare_to": 3
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": ">=",
+                        "compare_to": 1
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 14
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "offhand",
+                        "item_condition": {
+                           "type": "origins:ingredient",
+                           "ingredient": {
+                              "item": "skykid:winged_light"
+                           }
+                        }
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:prime_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "4",
+                                       "comparison": "==",
+                                       "compare_to": 4
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 2
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:average_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "2",
+                                       "comparison": "==",
+                                       "compare_to": 2
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": ">=",
+                        "compare_to": 1
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 13
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "offhand",
+                        "item_condition": {
+                           "type": "origins:ingredient",
+                           "ingredient": {
+                              "item": "skykid:winged_light"
+                           }
+                        }
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:prime_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "4",
+                                       "comparison": "==",
+                                       "compare_to": 4
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "3",
+                                       "comparison": "==",
+                                       "compare_to": 3
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": ">=",
+                        "compare_to": 2
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 13
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:prime_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "4",
+                                       "comparison": "==",
+                                       "compare_to": 4
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": ">=",
+                        "compare_to": 3
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 12
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "offhand",
+                        "item_condition": {
+                           "type": "origins:ingredient",
+                           "ingredient": {
+                              "item": "skykid:winged_light"
+                           }
+                        }
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:prime_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "4",
+                                       "comparison": "==",
+                                       "compare_to": 4
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 2
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:weak_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "1",
+                                       "comparison": "==",
+                                       "compare_to": 1
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": ">=",
+                        "compare_to": 1
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 12
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "offhand",
+                        "item_condition": {
+                           "type": "origins:ingredient",
+                           "ingredient": {
+                              "item": "skykid:winged_light"
+                           }
+                        }
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "3",
+                                       "comparison": "==",
+                                       "compare_to": 3
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": ">=",
+                        "compare_to": 3
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 12
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:prime_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "4",
+                                       "comparison": "==",
+                                       "compare_to": 4
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 2
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:and",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:candles"
+                              },
+                              {
+                                 "type": "origins:block_state",
+                                 "property": "lit",
+                                 "value": true
+                              },
+                              {
+                                 "type": "origins:block_state",
+                                 "property": "candles",
+                                 "enum": "3",
+                                 "comparison": "==",
+                                 "compare_to": 3
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": ">=",
+                        "compare_to": 1
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 11
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "offhand",
+                        "item_condition": {
+                           "type": "origins:ingredient",
+                           "ingredient": {
+                              "item": "skykid:winged_light"
+                           }
+                        }
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:prime_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "4",
+                                       "comparison": "==",
+                                       "compare_to": 4
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 2
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 11
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "offhand",
+                        "item_condition": {
+                           "type": "origins:ingredient",
+                           "ingredient": {
+                              "item": "skykid:winged_light"
+                           }
+                        }
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:prime_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "4",
+                                       "comparison": "==",
+                                       "compare_to": 4
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:average_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "2",
+                                       "comparison": "==",
+                                       "compare_to": 2
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": ">=",
+                        "compare_to": 2
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 11
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:prime_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "4",
+                                       "comparison": "==",
+                                       "compare_to": 4
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 2
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:average_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "2",
+                                       "comparison": "==",
+                                       "compare_to": 2
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": ">=",
+                        "compare_to": 1
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 10
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:prime_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "4",
+                                       "comparison": "==",
+                                       "compare_to": 4
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "3",
+                                       "comparison": "==",
+                                       "compare_to": 3
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": ">=",
+                        "compare_to": 2
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 10
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:prime_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "4",
+                                       "comparison": "==",
+                                       "compare_to": 4
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 2
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:weak_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "1",
+                                       "comparison": "==",
+                                       "compare_to": 1
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": ">=",
+                        "compare_to": 1
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 9
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "3",
+                                       "comparison": "==",
+                                       "compare_to": 3
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": ">=",
+                        "compare_to": 3
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 9
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "offhand",
+                        "item_condition": {
+                           "type": "origins:ingredient",
+                           "ingredient": {
+                              "item": "skykid:winged_light"
+                           }
+                        }
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:prime_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "4",
+                                       "comparison": "==",
+                                       "compare_to": 4
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "3",
+                                       "comparison": "==",
+                                       "compare_to": 3
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 9
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "offhand",
+                        "item_condition": {
+                           "type": "origins:ingredient",
+                           "ingredient": {
+                              "item": "skykid:winged_light"
+                           }
+                        }
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:prime_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "4",
+                                       "comparison": "==",
+                                       "compare_to": 4
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:average_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "2",
+                                       "comparison": "==",
+                                       "compare_to": 2
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:weak_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "1",
+                                       "comparison": "==",
+                                       "compare_to": 1
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 9
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "offhand",
+                        "item_condition": {
+                           "type": "origins:ingredient",
+                           "ingredient": {
+                              "item": "skykid:winged_light"
+                           }
+                        }
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:prime_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "4",
+                                       "comparison": "==",
+                                       "compare_to": 4
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "3",
+                                       "comparison": "==",
+                                       "compare_to": 3
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 9
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:prime_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "4",
+                                       "comparison": "==",
+                                       "compare_to": 4
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 2
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 8
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:prime_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "4",
+                                       "comparison": "==",
+                                       "compare_to": 4
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:average_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "2",
+                                       "comparison": "==",
+                                       "compare_to": 2
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": ">=",
+                        "compare_to": 2
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 8
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "offhand",
+                        "item_condition": {
+                           "type": "origins:ingredient",
+                           "ingredient": {
+                              "item": "skykid:winged_light"
+                           }
+                        }
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:average_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "2",
+                                       "comparison": "==",
+                                       "compare_to": 2
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": ">=",
+                        "compare_to": 3
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 8
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "offhand",
+                        "item_condition": {
+                           "type": "origins:ingredient",
+                           "ingredient": {
+                              "item": "skykid:winged_light"
+                           }
+                        }
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "3",
+                                       "comparison": "==",
+                                       "compare_to": 3
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 2
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 8
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "offhand",
+                        "item_condition": {
+                           "type": "origins:ingredient",
+                           "ingredient": {
+                              "item": "skykid:winged_light"
+                           }
+                        }
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:prime_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "4",
+                                       "comparison": "==",
+                                       "compare_to": 4
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:average_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "2",
+                                       "comparison": "==",
+                                       "compare_to": 2
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 8
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:prime_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "4",
+                                       "comparison": "==",
+                                       "compare_to": 4
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "3",
+                                       "comparison": "==",
+                                       "compare_to": 3
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 7
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:prime_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "4",
+                                       "comparison": "==",
+                                       "compare_to": 4
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:average_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "2",
+                                       "comparison": "==",
+                                       "compare_to": 2
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:weak_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "1",
+                                       "comparison": "==",
+                                       "compare_to": 1
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 7
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:prime_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "4",
+                                       "comparison": "==",
+                                       "compare_to": 4
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "3",
+                                       "comparison": "==",
+                                       "compare_to": 3
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 7
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "offhand",
+                        "item_condition": {
+                           "type": "origins:ingredient",
+                           "ingredient": {
+                              "item": "skykid:winged_light"
+                           }
+                        }
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "3",
+                                       "comparison": "==",
+                                       "compare_to": 3
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:weak_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "1",
+                                       "comparison": "==",
+                                       "compare_to": 1
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": ">=",
+                        "compare_to": 2
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 7
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "offhand",
+                        "item_condition": {
+                           "type": "origins:ingredient",
+                           "ingredient": {
+                              "item": "skykid:winged_light"
+                           }
+                        }
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "3",
+                                       "comparison": "==",
+                                       "compare_to": 3
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:average_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "2",
+                                       "comparison": "==",
+                                       "compare_to": 2
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 7
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "offhand",
+                        "item_condition": {
+                           "type": "origins:ingredient",
+                           "ingredient": {
+                              "item": "skykid:winged_light"
+                           }
+                        }
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:prime_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "4",
+                                       "comparison": "==",
+                                       "compare_to": 4
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:weak_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "1",
+                                       "comparison": "==",
+                                       "compare_to": 1
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 7
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:average_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "2",
+                                       "comparison": "==",
+                                       "compare_to": 2
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": ">=",
+                        "compare_to": 3
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 6
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "3",
+                                       "comparison": "==",
+                                       "compare_to": 3
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 2
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 6
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:prime_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "4",
+                                       "comparison": "==",
+                                       "compare_to": 4
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:average_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "2",
+                                       "comparison": "==",
+                                       "compare_to": 2
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 6
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "3",
+                                       "comparison": "==",
+                                       "compare_to": 3
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:weak_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "1",
+                                       "comparison": "==",
+                                       "compare_to": 1
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": ">=",
+                        "compare_to": 2
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 5
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "3",
+                                       "comparison": "==",
+                                       "compare_to": 3
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:average_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "2",
+                                       "comparison": "==",
+                                       "compare_to": 2
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 5
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:prime_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "4",
+                                       "comparison": "==",
+                                       "compare_to": 4
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:weak_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "1",
+                                       "comparison": "==",
+                                       "compare_to": 1
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 5
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "offhand",
+                        "item_condition": {
+                           "type": "origins:ingredient",
+                           "ingredient": {
+                              "item": "skykid:winged_light"
+                           }
+                        }
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:prime_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "4",
+                                       "comparison": "==",
+                                       "compare_to": 4
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 5
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "offhand",
+                        "item_condition": {
+                           "type": "origins:ingredient",
+                           "ingredient": {
+                              "item": "skykid:winged_light"
+                           }
+                        }
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "3",
+                                       "comparison": "==",
+                                       "compare_to": 3
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:weak_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "1",
+                                       "comparison": "==",
+                                       "compare_to": 1
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 5
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "offhand",
+                        "item_condition": {
+                           "type": "origins:ingredient",
+                           "ingredient": {
+                              "item": "skykid:winged_light"
+                           }
+                        }
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:weak_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "1",
+                                       "comparison": "==",
+                                       "compare_to": 1
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 2
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:average_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "2",
+                                       "comparison": "==",
+                                       "compare_to": 2
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 5
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "offhand",
+                        "item_condition": {
+                           "type": "origins:ingredient",
+                           "ingredient": {
+                              "item": "skykid:winged_light"
+                           }
+                        }
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:average_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "2",
+                                       "comparison": "==",
+                                       "compare_to": 2
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 2
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 5
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:prime_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "4",
+                                       "comparison": "==",
+                                       "compare_to": 4
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 4
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "3",
+                                       "comparison": "==",
+                                       "compare_to": 3
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:weak_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "1",
+                                       "comparison": "==",
+                                       "compare_to": 1
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 4
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:weak_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "1",
+                                       "comparison": "==",
+                                       "compare_to": 1
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 2
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:average_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "2",
+                                       "comparison": "==",
+                                       "compare_to": 2
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 4
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:average_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "2",
+                                       "comparison": "==",
+                                       "compare_to": 2
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 2
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 4
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:or",
+                  "conditions": [
+                     {
+                        "type": "origins:and",
+                        "conditions": [
+                           {
+                              "type": "origins:equipped_item",
+                              "equipment_slot": "offhand",
+                              "item_condition": {
+                                 "type": "origins:ingredient",
+                                 "ingredient": {
+                                    "item": "skykid:winged_light"
+                                 }
+                              }
+                           },
+                           {
+                              "type": "origins:fluid_height",
+                              "fluid": "minecraft:water",
+                              "comparison": "==",
+                              "compare_to": 0
+                           },
+                           {
+                              "type": "origins:block_in_radius",
+                              "block_condition": {
+                                 "type": "origins:or",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:weak_sources"
+                                    },
+                                    {
+                                       "type": "origins:and",
+                                       "conditions": [
+                                          {
+                                             "type": "origins:in_tag",
+                                             "tag": "skykid:candles"
+                                          },
+                                          {
+                                             "type": "origins:block_state",
+                                             "property": "lit",
+                                             "value": true
+                                          },
+                                          {
+                                             "type": "origins:block_state",
+                                             "property": "candles",
+                                             "enum": "1",
+                                             "comparison": "==",
+                                             "compare_to": 1
+                                          }
+                                       ]
+                                    }
+                                 ]
+                              },
+                              "radius": 2,
+                              "comparison": ">=",
+                              "compare_to": 3
+                           },
+                           {
+                              "type": "origins:in_rain",
+                              "inverted": true
+                           }
+                        ]
+                     },
+                     {
+                        "type": "origins:and",
+                        "conditions": [
+                           {
+                              "type": "origins:equipped_item",
+                              "equipment_slot": "offhand",
+                              "item_condition": {
+                                 "type": "origins:ingredient",
+                                 "ingredient": {
+                                    "item": "skykid:winged_light"
+                                 }
+                              }
+                           },
+                           {
+                              "type": "origins:fluid_height",
+                              "fluid": "minecraft:water",
+                              "comparison": "==",
+                              "compare_to": 0
+                           },
+                           {
+                              "type": "origins:and",
+                              "conditions": [
+                                 {
+                                    "type": "origins:block_in_radius",
+                                    "block_condition": {
+                                       "type": "origins:or",
+                                       "conditions": [
+                                          {
+                                             "type": "origins:in_tag",
+                                             "tag": "skykid:average_sources"
+                                          },
+                                          {
+                                             "type": "origins:and",
+                                             "conditions": [
+                                                {
+                                                   "type": "origins:in_tag",
+                                                   "tag": "skykid:candles"
+                                                },
+                                                {
+                                                   "type": "origins:block_state",
+                                                   "property": "lit",
+                                                   "value": true
+                                                },
+                                                {
+                                                   "type": "origins:block_state",
+                                                   "property": "candles",
+                                                   "enum": "2",
+                                                   "comparison": "==",
+                                                   "compare_to": 2
+                                                }
+                                             ]
+                                          }
+                                       ]
+                                    },
+                                    "radius": 2,
+                                    "comparison": "==",
+                                    "compare_to": 1
+                                 },
+                                 {
+                                    "type": "origins:block_in_radius",
+                                    "block_condition": {
+                                       "type": "origins:or",
+                                       "conditions": [
+                                          {
+                                             "type": "origins:in_tag",
+                                             "tag": "skykid:weak_sources"
+                                          },
+                                          {
+                                             "type": "origins:and",
+                                             "conditions": [
+                                                {
+                                                   "type": "origins:in_tag",
+                                                   "tag": "skykid:candles"
+                                                },
+                                                {
+                                                   "type": "origins:block_state",
+                                                   "property": "lit",
+                                                   "value": true
+                                                },
+                                                {
+                                                   "type": "origins:block_state",
+                                                   "property": "candles",
+                                                   "enum": "1",
+                                                   "comparison": "==",
+                                                   "compare_to": 1
+                                                }
+                                             ]
+                                          }
+                                       ]
+                                    },
+                                    "radius": 2,
+                                    "comparison": "==",
+                                    "compare_to": 2
+                                 }
+                              ]
+                           },
+                           {
+                              "type": "origins:in_rain",
+                              "inverted": true
+                           }
+                        ]
+                     },
+                     {
+                        "type": "origins:and",
+                        "conditions": [
+                           {
+                              "type": "origins:equipped_item",
+                              "equipment_slot": "offhand",
+                              "item_condition": {
+                                 "type": "origins:ingredient",
+                                 "ingredient": {
+                                    "item": "skykid:winged_light"
+                                 }
+                              }
+                           },
+                           {
+                              "type": "origins:fluid_height",
+                              "fluid": "minecraft:water",
+                              "comparison": "==",
+                              "compare_to": 0
+                           },
+                           {
+                              "type": "origins:block_in_radius",
+                              "block_condition": {
+                                 "type": "origins:or",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:weak_sources"
+                                    },
+                                    {
+                                       "type": "origins:and",
+                                       "conditions": [
+                                          {
+                                             "type": "origins:in_tag",
+                                             "tag": "skykid:candles"
+                                          },
+                                          {
+                                             "type": "origins:block_state",
+                                             "property": "lit",
+                                             "value": true
+                                          },
+                                          {
+                                             "type": "origins:block_state",
+                                             "property": "candles",
+                                             "enum": "1",
+                                             "comparison": "==",
+                                             "compare_to": 1
+                                          }
+                                       ]
+                                    }
+                                 ]
+                              },
+                              "radius": 2,
+                              "comparison": "==",
+                              "compare_to": 2
+                           },
+                           {
+                              "type": "origins:in_rain",
+                              "inverted": true
+                           }
+                        ]
+                     },
+                     {
+                        "type": "origins:and",
+                        "conditions": [
+                           {
+                              "type": "origins:equipped_item",
+                              "equipment_slot": "offhand",
+                              "item_condition": {
+                                 "type": "origins:ingredient",
+                                 "ingredient": {
+                                    "item": "skykid:winged_light"
+                                 }
+                              }
+                           },
+                           {
+                              "type": "origins:fluid_height",
+                              "fluid": "minecraft:water",
+                              "comparison": "==",
+                              "compare_to": 0
+                           },
+                           {
+                              "type": "origins:block_in_radius",
+                              "block_condition": {
+                                 "type": "origins:or",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:weak_sources"
+                                    },
+                                    {
+                                       "type": "origins:and",
+                                       "conditions": [
+                                          {
+                                             "type": "origins:in_tag",
+                                             "tag": "skykid:candles"
+                                          },
+                                          {
+                                             "type": "origins:block_state",
+                                             "property": "lit",
+                                             "value": true
+                                          },
+                                          {
+                                             "type": "origins:block_state",
+                                             "property": "candles",
+                                             "enum": "1",
+                                             "comparison": "==",
+                                             "compare_to": 1
+                                          }
+                                       ]
+                                    }
+                                 ]
+                              },
+                              "radius": 2,
+                              "comparison": "==",
+                              "compare_to": 2
+                           },
+                           {
+                              "type": "origins:in_rain",
+                              "inverted": true
+                           }
+                        ]
+                     },
+                     {
+                        "type": "origins:and",
+                        "conditions": [
+                           {
+                              "type": "origins:equipped_item",
+                              "equipment_slot": "offhand",
+                              "item_condition": {
+                                 "type": "origins:ingredient",
+                                 "ingredient": {
+                                    "item": "skykid:winged_light"
+                                 }
+                              }
+                           },
+                           {
+                              "type": "origins:fluid_height",
+                              "fluid": "minecraft:water",
+                              "comparison": "==",
+                              "compare_to": 0
+                           },
+                           {
+                              "type": "origins:block_in_radius",
+                              "block_condition": {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "3",
+                                       "comparison": "==",
+                                       "compare_to": 3
+                                    }
+                                 ]
+                              },
+                              "radius": 2,
+                              "comparison": "==",
+                              "compare_to": 1
+                           },
+                           {
+                              "type": "origins:in_rain",
+                              "inverted": true
+                           }
+                        ]
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 4
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:or",
+                  "conditions": [
+                     {
+                        "type": "origins:and",
+                        "conditions": [
+                           {
+                              "type": "origins:fluid_height",
+                              "fluid": "minecraft:water",
+                              "comparison": "==",
+                              "compare_to": 0
+                           },
+                           {
+                              "type": "origins:block_in_radius",
+                              "block_condition": {
+                                 "type": "origins:or",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:weak_sources"
+                                    },
+                                    {
+                                       "type": "origins:and",
+                                       "conditions": [
+                                          {
+                                             "type": "origins:in_tag",
+                                             "tag": "skykid:candles"
+                                          },
+                                          {
+                                             "type": "origins:block_state",
+                                             "property": "lit",
+                                             "value": true
+                                          },
+                                          {
+                                             "type": "origins:block_state",
+                                             "property": "candles",
+                                             "enum": "1",
+                                             "comparison": "==",
+                                             "compare_to": 1
+                                          }
+                                       ]
+                                    }
+                                 ]
+                              },
+                              "radius": 2,
+                              "comparison": ">=",
+                              "compare_to": 3
+                           },
+                           {
+                              "type": "origins:in_rain",
+                              "inverted": true
+                           }
+                        ]
+                     },
+                     {
+                        "type": "origins:and",
+                        "conditions": [
+                           {
+                              "type": "origins:fluid_height",
+                              "fluid": "minecraft:water",
+                              "comparison": "==",
+                              "compare_to": 0
+                           },
+                           {
+                              "type": "origins:and",
+                              "conditions": [
+                                 {
+                                    "type": "origins:block_in_radius",
+                                    "block_condition": {
+                                       "type": "origins:or",
+                                       "conditions": [
+                                          {
+                                             "type": "origins:in_tag",
+                                             "tag": "skykid:average_sources"
+                                          },
+                                          {
+                                             "type": "origins:and",
+                                             "conditions": [
+                                                {
+                                                   "type": "origins:in_tag",
+                                                   "tag": "skykid:candles"
+                                                },
+                                                {
+                                                   "type": "origins:block_state",
+                                                   "property": "lit",
+                                                   "value": true
+                                                },
+                                                {
+                                                   "type": "origins:block_state",
+                                                   "property": "candles",
+                                                   "enum": "2",
+                                                   "comparison": "==",
+                                                   "compare_to": 2
+                                                }
+                                             ]
+                                          }
+                                       ]
+                                    },
+                                    "radius": 2,
+                                    "comparison": "==",
+                                    "compare_to": 1
+                                 },
+                                 {
+                                    "type": "origins:block_in_radius",
+                                    "block_condition": {
+                                       "type": "origins:or",
+                                       "conditions": [
+                                          {
+                                             "type": "origins:in_tag",
+                                             "tag": "skykid:weak_sources"
+                                          },
+                                          {
+                                             "type": "origins:and",
+                                             "conditions": [
+                                                {
+                                                   "type": "origins:in_tag",
+                                                   "tag": "skykid:candles"
+                                                },
+                                                {
+                                                   "type": "origins:block_state",
+                                                   "property": "lit",
+                                                   "value": true
+                                                },
+                                                {
+                                                   "type": "origins:block_state",
+                                                   "property": "candles",
+                                                   "enum": "1",
+                                                   "comparison": "==",
+                                                   "compare_to": 1
+                                                }
+                                             ]
+                                          }
+                                       ]
+                                    },
+                                    "radius": 2,
+                                    "comparison": "==",
+                                    "compare_to": 2
+                                 }
+                              ]
+                           },
+                           {
+                              "type": "origins:in_rain",
+                              "inverted": true
+                           }
+                        ]
+                     },
+                     {
+                        "type": "origins:and",
+                        "conditions": [
+                           {
+                              "type": "origins:fluid_height",
+                              "fluid": "minecraft:water",
+                              "comparison": "==",
+                              "compare_to": 0
+                           },
+                           {
+                              "type": "origins:block_in_radius",
+                              "block_condition": {
+                                 "type": "origins:or",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:weak_sources"
+                                    },
+                                    {
+                                       "type": "origins:and",
+                                       "conditions": [
+                                          {
+                                             "type": "origins:in_tag",
+                                             "tag": "skykid:candles"
+                                          },
+                                          {
+                                             "type": "origins:block_state",
+                                             "property": "lit",
+                                             "value": true
+                                          },
+                                          {
+                                             "type": "origins:block_state",
+                                             "property": "candles",
+                                             "enum": "1",
+                                             "comparison": "==",
+                                             "compare_to": 1
+                                          }
+                                       ]
+                                    }
+                                 ]
+                              },
+                              "radius": 2,
+                              "comparison": "==",
+                              "compare_to": 2
+                           },
+                           {
+                              "type": "origins:in_rain",
+                              "inverted": true
+                           }
+                        ]
+                     },
+                     {
+                        "type": "origins:and",
+                        "conditions": [
+                           {
+                              "type": "origins:fluid_height",
+                              "fluid": "minecraft:water",
+                              "comparison": "==",
+                              "compare_to": 0
+                           },
+                           {
+                              "type": "origins:block_in_radius",
+                              "block_condition": {
+                                 "type": "origins:or",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:weak_sources"
+                                    },
+                                    {
+                                       "type": "origins:and",
+                                       "conditions": [
+                                          {
+                                             "type": "origins:in_tag",
+                                             "tag": "skykid:candles"
+                                          },
+                                          {
+                                             "type": "origins:block_state",
+                                             "property": "lit",
+                                             "value": true
+                                          },
+                                          {
+                                             "type": "origins:block_state",
+                                             "property": "candles",
+                                             "enum": "1",
+                                             "comparison": "==",
+                                             "compare_to": 1
+                                          }
+                                       ]
+                                    }
+                                 ]
+                              },
+                              "radius": 2,
+                              "comparison": "==",
+                              "compare_to": 2
+                           },
+                           {
+                              "type": "origins:in_rain",
+                              "inverted": true
+                           }
+                        ]
+                     },
+                     {
+                        "type": "origins:and",
+                        "conditions": [
+                           {
+                              "type": "origins:fluid_height",
+                              "fluid": "minecraft:water",
+                              "comparison": "==",
+                              "compare_to": 0
+                           },
+                           {
+                              "type": "origins:block_in_radius",
+                              "block_condition": {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "3",
+                                       "comparison": "==",
+                                       "compare_to": 3
+                                    }
+                                 ]
+                              },
+                              "radius": 2,
+                              "comparison": "==",
+                              "compare_to": 1
+                           },
+                           {
+                              "type": "origins:in_rain",
+                              "inverted": true
+                           }
+                        ]
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 3
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:or",
+                  "conditions": [
+                     {
+                        "type": "origins:and",
+                        "conditions": [
+                           {
+                              "type": "origins:equipped_item",
+                              "equipment_slot": "offhand",
+                              "item_condition": {
+                                 "type": "origins:ingredient",
+                                 "ingredient": {
+                                    "item": "skykid:winged_light"
+                                 }
+                              }
+                           },
+                           {
+                              "type": "origins:fluid_height",
+                              "fluid": "minecraft:water",
+                              "comparison": "==",
+                              "compare_to": 0
+                           },
+                           {
+                              "type": "origins:block_in_radius",
+                              "block_condition": {
+                                 "type": "origins:or",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:weak_sources"
+                                    },
+                                    {
+                                       "type": "origins:and",
+                                       "conditions": [
+                                          {
+                                             "type": "origins:in_tag",
+                                             "tag": "skykid:candles"
+                                          },
+                                          {
+                                             "type": "origins:block_state",
+                                             "property": "lit",
+                                             "value": true
+                                          },
+                                          {
+                                             "type": "origins:block_state",
+                                             "property": "candles",
+                                             "enum": "1",
+                                             "comparison": "==",
+                                             "compare_to": 1
+                                          }
+                                       ]
+                                    }
+                                 ]
+                              },
+                              "radius": 2,
+                              "comparison": "==",
+                              "compare_to": 2
+                           },
+                           {
+                              "type": "origins:in_rain",
+                              "inverted": true
+                           }
+                        ]
+                     },
+                     {
+                        "type": "origins:and",
+                        "conditions": [
+                           {
+                              "type": "origins:equipped_item",
+                              "equipment_slot": "offhand",
+                              "item_condition": {
+                                 "type": "origins:ingredient",
+                                 "ingredient": {
+                                    "item": "skykid:winged_light"
+                                 }
+                              }
+                           },
+                           {
+                              "type": "origins:fluid_height",
+                              "fluid": "minecraft:water",
+                              "comparison": "==",
+                              "compare_to": 0
+                           },
+                           {
+                              "type": "origins:block_in_radius",
+                              "block_condition": {
+                                 "type": "origins:or",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:average_sources"
+                                    },
+                                    {
+                                       "type": "origins:and",
+                                       "conditions": [
+                                          {
+                                             "type": "origins:in_tag",
+                                             "tag": "skykid:candles"
+                                          },
+                                          {
+                                             "type": "origins:block_state",
+                                             "property": "lit",
+                                             "value": true
+                                          },
+                                          {
+                                             "type": "origins:block_state",
+                                             "property": "candles",
+                                             "enum": "2",
+                                             "comparison": "==",
+                                             "compare_to": 2
+                                          }
+                                       ]
+                                    }
+                                 ]
+                              },
+                              "radius": 2,
+                              "comparison": "==",
+                              "compare_to": 1
+                           },
+                           {
+                              "type": "origins:in_rain",
+                              "inverted": true
+                           }
+                        ]
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 3
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:or",
+                  "conditions": [
+                     {
+                        "type": "origins:and",
+                        "conditions": [
+                           {
+                              "type": "origins:fluid_height",
+                              "fluid": "minecraft:water",
+                              "comparison": "==",
+                              "compare_to": 0
+                           },
+                           {
+                              "type": "origins:block_in_radius",
+                              "block_condition": {
+                                 "type": "origins:or",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:weak_sources"
+                                    },
+                                    {
+                                       "type": "origins:and",
+                                       "conditions": [
+                                          {
+                                             "type": "origins:in_tag",
+                                             "tag": "skykid:candles"
+                                          },
+                                          {
+                                             "type": "origins:block_state",
+                                             "property": "lit",
+                                             "value": true
+                                          },
+                                          {
+                                             "type": "origins:block_state",
+                                             "property": "candles",
+                                             "enum": "1",
+                                             "comparison": "==",
+                                             "compare_to": 1
+                                          }
+                                       ]
+                                    }
+                                 ]
+                              },
+                              "radius": 2,
+                              "comparison": "==",
+                              "compare_to": 2
+                           },
+                           {
+                              "type": "origins:in_rain",
+                              "inverted": true
+                           }
+                        ]
+                     },
+                     {
+                        "type": "origins:and",
+                        "conditions": [
+                           {
+                              "type": "origins:fluid_height",
+                              "fluid": "minecraft:water",
+                              "comparison": "==",
+                              "compare_to": 0
+                           },
+                           {
+                              "type": "origins:block_in_radius",
+                              "block_condition": {
+                                 "type": "origins:or",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:average_sources"
+                                    },
+                                    {
+                                       "type": "origins:and",
+                                       "conditions": [
+                                          {
+                                             "type": "origins:in_tag",
+                                             "tag": "skykid:candles"
+                                          },
+                                          {
+                                             "type": "origins:block_state",
+                                             "property": "lit",
+                                             "value": true
+                                          },
+                                          {
+                                             "type": "origins:block_state",
+                                             "property": "candles",
+                                             "enum": "2",
+                                             "comparison": "==",
+                                             "compare_to": 2
+                                          }
+                                       ]
+                                    }
+                                 ]
+                              },
+                              "radius": 2,
+                              "comparison": "==",
+                              "compare_to": 1
+                           },
+                           {
+                              "type": "origins:in_rain",
+                              "inverted": true
+                           }
+                        ]
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 2
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "offhand",
+                        "item_condition": {
+                           "type": "origins:ingredient",
+                           "ingredient": {
+                              "item": "skykid:winged_light"
+                           }
+                        }
+                     },
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:weak_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "1",
+                                       "comparison": "==",
+                                       "compare_to": 1
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 2
+               }
+            },
+            {
+               "condition": {
+                  "type": "origins:and",
+                  "conditions": [
+                     {
+                        "type": "origins:block_in_radius",
+                        "block_condition": {
+                           "type": "origins:or",
+                           "conditions": [
+                              {
+                                 "type": "origins:in_tag",
+                                 "tag": "skykid:weak_sources"
+                              },
+                              {
+                                 "type": "origins:and",
+                                 "conditions": [
+                                    {
+                                       "type": "origins:in_tag",
+                                       "tag": "skykid:candles"
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "lit",
+                                       "value": true
+                                    },
+                                    {
+                                       "type": "origins:block_state",
+                                       "property": "candles",
+                                       "enum": "1",
+                                       "comparison": "==",
+                                       "compare_to": 1
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        "radius": 2,
+                        "comparison": "==",
+                        "compare_to": 1
+                     }
+                  ]
+               },
+               "action": {
+                  "type": "origins:change_resource",
+                  "resource": "skykid:armor_resource",
+                  "change": 1
+               }
+            }
+         ]
+      }
+   }
+}

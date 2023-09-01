@@ -1,0 +1,10 @@
+{
+	"name": "Jellyfish Call",
+	"description": " ",
+	"powers": [],
+	"icon": {
+		"item": "minecraft:red_candle"
+	},
+	"order": 6,
+	"impact": 0
+}

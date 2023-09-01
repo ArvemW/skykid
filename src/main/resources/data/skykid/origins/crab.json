@@ -1,0 +1,10 @@
+{
+	"name": "Crab Call",
+	"description": " ",
+	"powers": [],
+	"icon": {
+		"item": "minecraft:red_candle"
+	},
+	"order": 3,
+	"impact": 0
+}

@@ -1,0 +1,52 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:add_velocity",
+        "z": 0.5,
+        "space": "local"
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "skykid:player.flap"
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "skykid:player.boost"
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "skykid:player.whoosh"
+      },
+      {
+        "type": "origins:change_resource",
+        "resource": "skykid:armor_resource",
+        "change": -80
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:fall_flying"
+      },
+      {
+        "type": "origins:resource",
+        "resource": "skykid:armor_resource",
+        "comparison": ">=",
+        "compare_to": 80
+      }
+    ]
+  },
+  "cooldown": 5,
+  "hud_render": {
+    "should_render": false
+  },
+  "key": {
+    "key": "key.jump",
+    "continuous": false
+  }
+}

@@ -1,0 +1,589 @@
+{
+    "flap": {
+        "category": "player",
+        "subtitle": "subtitles.skykid.flap",
+        "sounds": [
+            {
+            "name": "skykid:flap01",
+            "stream": false
+        },
+        {
+            "name": "skykid:flap02",
+            "stream": false
+        },
+        {
+            "name": "skykid:flap03",
+            "stream": false
+        },
+        {
+            "name": "skykid:flap04",
+            "stream": false
+        },
+        {
+            "name": "skykid:flap05",
+            "stream": false
+        },
+        {
+            "name": "skykid:flap06",
+            "stream": false
+        },
+        {
+            "name": "skykid:flap07",
+            "stream": false
+        }
+      ]
+    },
+    "boost": {
+        "category": "player",
+        "subtitle": "subtitles.skykid.flap",
+        "sounds": [
+            {
+            "name": "skykid:boost1",
+            "stream": false
+        },
+        {
+            "name": "skykid:boost2",
+            "stream": false
+        },
+        {
+            "name": "skykid:boost3",
+            "stream": false
+        }
+      ]
+    },
+    "whoosh": {
+        "category": "player",
+        "subtitle": "subtitles.skykid.flap",
+        "sounds": [
+            {
+            "name": "skykid:whoosh1",
+            "stream": false
+        },
+        {
+            "name": "skykid:whoosh2",
+            "stream": false
+        },
+        {
+            "name": "skykid:whoosh3",
+            "stream": false
+        }
+      ]
+    },
+    "beatslow": {
+        "category": "player",
+        "sounds": [
+            {
+            "name": "skykid:beatslow",
+            "stream": false
+        }
+      ]
+    },
+    "beatmid": {
+        "category": "player",
+        "sounds": [
+            {
+            "name": "skykid:beatmid",
+            "stream": false
+        }
+      ]
+    },
+    "beatfast": {
+        "category": "player",
+        "sounds": [
+            {
+            "name": "skykid:beatfast",
+            "stream": false
+        }
+      ]
+    },
+    "default": {
+        "category": "player",
+        "subtitle": "subtitles.skykid.default_shout",
+        "sounds": [
+            {
+            "name": "skykid:defaulta",
+            "stream": false,
+            "weight": 3
+        },
+        {
+            "name": "skykid:defaultam",
+            "stream": false,
+            "weight": 2
+        },
+        {
+            "name": "skykid:defaultas",
+            "stream": false
+        },
+        {
+            "name": "skykid:defaultc",
+            "stream": false,
+            "weight": 3
+        },
+        {
+            "name": "skykid:defaultcm",
+            "stream": false,
+            "weight": 2
+        },
+        {
+            "name": "skykid:defaultcs",
+            "stream": false
+        },
+        {
+            "name": "skykid:defaultcss",
+            "stream": false
+        },
+        {
+            "name": "skykid:defaulte",
+            "stream": false,
+            "weight": 3
+        },
+        {
+            "name": "skykid:defaultem",
+            "stream": false,
+            "weight": 2
+        },
+        {
+            "name": "skykid:defaultes",
+            "stream": false
+        },
+        {
+            "name": "skykid:defaultess",
+            "stream": false
+        },
+        {
+            "name": "skykid:defaultg",
+            "stream": false,
+            "weight": 3
+        },
+        {
+            "name": "skykid:defaultgm",
+            "stream": false,
+            "weight": 2
+        },
+        {
+            "name": "skykid:defaultgs",
+            "stream": false
+        }
+      ]
+    },
+    "bird": {
+        "category": "player",
+        "subtitle": "subtitles.skykid.bird_shout",
+        "sounds": [
+            {
+            "name": "skykid:birda",
+            "stream": false,
+            "weight": 3
+        },
+        {
+            "name": "skykid:birdam",
+            "stream": false,
+            "weight": 2
+        },
+        {
+            "name": "skykid:birdas",
+            "stream": false
+        },
+        {
+            "name": "skykid:birdc",
+            "stream": false,
+            "weight": 3
+        },
+        {
+            "name": "skykid:birdcm",
+            "stream": false,
+            "weight": 2
+        },
+        {
+            "name": "skykid:birdcs",
+            "stream": false
+        },
+        {
+            "name": "skykid:birdcss",
+            "stream": false
+        },
+        {
+            "name": "skykid:birde",
+            "stream": false,
+            "weight": 3
+        },
+        {
+            "name": "skykid:birdem",
+            "stream": false,
+            "weight": 2
+        },
+        {
+            "name": "skykid:birdes",
+            "stream": false
+        },
+        {
+            "name": "skykid:birdess",
+            "stream": false
+        },
+        {
+            "name": "skykid:birdg",
+            "stream": false,
+            "weight": 3
+        },
+        {
+            "name": "skykid:birdgm",
+            "stream": false,
+            "weight": 2
+        },
+        {
+            "name": "skykid:birdgs",
+            "stream": false
+        }
+      ]
+    },
+    "crab": {
+        "category": "player",
+        "subtitle": "subtitles.skykid.crab_shout",
+        "sounds": [
+            {
+            "name": "skykid:craba",
+            "stream": false,
+            "weight": 3
+        },
+        {
+            "name": "skykid:crabam",
+            "stream": false,
+            "weight": 2
+        },
+        {
+            "name": "skykid:crabas",
+            "stream": false
+        },
+        {
+            "name": "skykid:crabc",
+            "stream": false,
+            "weight": 3
+        },
+        {
+            "name": "skykid:crabcm",
+            "stream": false,
+            "weight": 2
+        },
+        {
+            "name": "skykid:crabcs",
+            "stream": false
+        },
+        {
+            "name": "skykid:crabcss",
+            "stream": false
+        },
+        {
+            "name": "skykid:crabe",
+            "stream": false,
+            "weight": 3
+        },
+        {
+            "name": "skykid:crabem",
+            "stream": false,
+            "weight": 2
+        },
+        {
+            "name": "skykid:crabes",
+            "stream": false
+        },
+        {
+            "name": "skykid:crabess",
+            "stream": false
+        },
+        {
+            "name": "skykid:crabg",
+            "stream": false,
+            "weight": 3
+        },
+        {
+            "name": "skykid:crabgm",
+            "stream": false,
+            "weight": 2
+        },
+        {
+            "name": "skykid:crabgs",
+            "stream": false
+        }
+      ]
+    },
+    "ghost": {
+        "category": "player",
+        "subtitle": "subtitles.skykid.ghost_shout",
+        "sounds": [
+            {
+            "name": "skykid:ghosta",
+            "stream": false,
+            "weight": 3
+        },
+        {
+            "name": "skykid:ghostam",
+            "stream": false,
+            "weight": 2
+        },
+        {
+            "name": "skykid:ghostas",
+            "stream": false
+        },
+        {
+            "name": "skykid:ghostc",
+            "stream": false,
+            "weight": 3
+        },
+        {
+            "name": "skykid:ghostcm",
+            "stream": false,
+            "weight": 2
+        },
+        {
+            "name": "skykid:ghostcs",
+            "stream": false
+        },
+        {
+            "name": "skykid:ghostcss",
+            "stream": false
+        },
+        {
+            "name": "skykid:ghoste",
+            "stream": false,
+            "weight": 3
+        },
+        {
+            "name": "skykid:ghostem",
+            "stream": false,
+            "weight": 2
+        },
+        {
+            "name": "skykid:ghostes",
+            "stream": false
+        },
+        {
+            "name": "skykid:ghostess",
+            "stream": false
+        },
+        {
+            "name": "skykid:ghostg",
+            "stream": false,
+            "weight": 3
+        },
+        {
+            "name": "skykid:ghostgm",
+            "stream": false,
+            "weight": 2
+        },
+        {
+            "name": "skykid:ghostgs",
+            "stream": false
+        }
+      ]
+    },
+    "jelly": {
+        "category": "player",
+        "subtitle": "subtitles.skykid.jelly_shout",
+        "sounds": [
+            {
+            "name": "skykid:jellya",
+            "stream": false,
+            "weight": 3
+        },
+        {
+            "name": "skykid:jellyam",
+            "stream": false,
+            "weight": 2
+        },
+        {
+            "name": "skykid:jellyas",
+            "stream": false
+        },
+        {
+            "name": "skykid:jellyc",
+            "stream": false,
+            "weight": 3
+        },
+        {
+            "name": "skykid:jellycm",
+            "stream": false,
+            "weight": 2
+        },
+        {
+            "name": "skykid:jellycs",
+            "stream": false
+        },
+        {
+            "name": "skykid:jellycss",
+            "stream": false
+        },
+        {
+            "name": "skykid:jellye",
+            "stream": false,
+            "weight": 3
+        },
+        {
+            "name": "skykid:jellyem",
+            "stream": false,
+            "weight": 2
+        },
+        {
+            "name": "skykid:jellyes",
+            "stream": false
+        },
+        {
+            "name": "skykid:jellyess",
+            "stream": false
+        },
+        {
+            "name": "skykid:jellyg",
+            "stream": false,
+            "weight": 3
+        },
+        {
+            "name": "skykid:jellygm",
+            "stream": false,
+            "weight": 2
+        },
+        {
+            "name": "skykid:jellygs",
+            "stream": false
+        }
+      ]
+    },
+    "whale": {
+        "category": "player",
+        "subtitle": "subtitles.skykid.whale_shout",
+        "sounds": [
+            {
+            "name": "skykid:whalea",
+            "stream": false,
+            "weight": 3
+        },
+        {
+            "name": "skykid:whaleam",
+            "stream": false,
+            "weight": 2
+        },
+        {
+            "name": "skykid:whaleas",
+            "stream": false
+        },
+        {
+            "name": "skykid:whalec",
+            "stream": false,
+            "weight": 3
+        },
+        {
+            "name": "skykid:whalecm",
+            "stream": false,
+            "weight": 2
+        },
+        {
+            "name": "skykid:whalecs",
+            "stream": false
+        },
+        {
+            "name": "skykid:whalecss",
+            "stream": false
+        },
+        {
+            "name": "skykid:whalee",
+            "stream": false,
+            "weight": 3
+        },
+        {
+            "name": "skykid:whaleem",
+            "stream": false,
+            "weight": 2
+        },
+        {
+            "name": "skykid:whalees",
+            "stream": false
+        },
+        {
+            "name": "skykid:whaleess",
+            "stream": false
+        },
+        {
+            "name": "skykid:whaleg",
+            "stream": false,
+            "weight": 3
+        },
+        {
+            "name": "skykid:whalegm",
+            "stream": false,
+            "weight": 2
+        },
+        {
+            "name": "skykid:whalegs",
+            "stream": false
+        }
+      ]
+    },
+    "manta": {
+        "category": "player",
+        "subtitle": "subtitles.skykid.manta_shout",
+        "sounds": [
+            {
+            "name": "skykid:mantaa",
+            "stream": false,
+            "weight": 3
+        },
+        {
+            "name": "skykid:mantaam",
+            "stream": false,
+            "weight": 2
+        },
+        {
+            "name": "skykid:mantaas",
+            "stream": false
+        },
+        {
+            "name": "skykid:mantac",
+            "stream": false,
+            "weight": 3
+        },
+        {
+            "name": "skykid:mantacm",
+            "stream": false,
+            "weight": 2
+        },
+        {
+            "name": "skykid:mantacs",
+            "stream": false
+        },
+        {
+            "name": "skykid:mantacss",
+            "stream": false
+        },
+        {
+            "name": "skykid:mantae",
+            "stream": false,
+            "weight": 3
+        },
+        {
+            "name": "skykid:mantaem",
+            "stream": false,
+            "weight": 2
+        },
+        {
+            "name": "skykid:mantaes",
+            "stream": false
+        },
+        {
+            "name": "skykid:mantaess",
+            "stream": false
+        },
+        {
+            "name": "skykid:mantag",
+            "stream": false,
+            "weight": 3
+        },
+        {
+            "name": "skykid:mantagm",
+            "stream": false,
+            "weight": 2
+        },
+        {
+            "name": "skykid:mantags",
+            "stream": false
+        }
+      ]
+    }
+  }

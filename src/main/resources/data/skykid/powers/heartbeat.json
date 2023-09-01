@@ -1,0 +1,106 @@
+{
+    "type": "origins:multiple",
+    "hidden": true,
+    "beat_slow": {
+        "type": "origins:action_over_time",
+        "interval": 37,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "skykid:armor_resource",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:health",
+                    "comparison": "<",
+                    "compare_to": 7
+                },
+                {
+                    "type": "origins:health",
+                    "comparison": ">=",
+                    "compare_to": 5
+                }
+            ]
+        },
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "playsound skykid:beatslow player @s ~ ~ ~ 0.8 1"
+        }
+    },
+    "beat_mid": {
+        "type": "origins:action_over_time",
+        "interval": 23,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "skykid:armor_resource",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:health",
+                    "comparison": "<",
+                    "compare_to": 5
+                },
+                {
+                    "type": "origins:health",
+                    "comparison": ">=",
+                    "compare_to": 2
+                }
+            ]
+        },
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "playsound skykid:beatmid player @s ~ ~ ~ 0.9 1"
+        }
+    },
+    "beat_fast": {
+        "type": "origins:action_over_time",
+        "interval": 15,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "skykid:armor_resource",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:health",
+                    "comparison": "<",
+                    "compare_to": 2
+                }
+            ]
+        },
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "playsound skykid:beatfast player @s ~ ~ ~ 1 1"
+        }
+    },
+    "pencil_vision": {
+        "type": "origins:shader",
+        "shader": "minecraft:shaders/post/desaturate.json",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "skykid:armor_resource",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:health",
+                    "comparison": "<",
+                    "compare_to": 7
+                }
+            ]
+        }
+    }
+}
