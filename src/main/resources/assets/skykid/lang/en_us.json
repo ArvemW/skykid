@@ -2,6 +2,11 @@
     "origin.skykid.sky_kid.name": "Child of the Light",
     "origin.skykid.sky_kid.description": "With the stars united, our light was infinite. But darkness came and the stars fell. A long time has passed... wake up Child of the Light, your adventure begins now.",
     "item.skykid.winged_light": "Winged Light",
+
+    "item.skykid.cape_default": "Moth Cape",
+    "item.skykid.cape_black": "Black Cape",
+    "item.skykid.cape_white": "White Cape",
+
     "power.skykid.armor.name": "§nDivine Protection",
     "power.skykid.armor.description": "Your Light serves as a shield from damage, using up Light whenever it has to protect you. If your Light runs out, you will be able to take actual damage.",
     "power.skykid.armor_2.name": "§6§nFire Adept",

@@ -15,6 +15,7 @@ object Skykid : ModInitializer {
 
 	override fun onInitialize() {
 		logger.info("When kingdom come...")
+		RegisterCapes.register()
 		RegisterItems.init()
 		RegisterSounds.init()
 	}

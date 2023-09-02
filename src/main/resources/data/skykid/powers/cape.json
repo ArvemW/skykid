@@ -1,11 +1,5 @@
 {
   "type": "origins:multiple",
-  "cape": {
-    "hidden": true,
-    "type": "origins:elytra_flight",
-    "render_elytra": true,
-    "texture_location": "skykid:textures/entity/cape.png"
-  },
   "trail_1": {
     "hidden": true,
     "type": "origins:particle",
@@ -22,6 +16,25 @@
     "frequency": 1,
     "condition": {
       "type": "origins:fall_flying"
+    }
+  },
+  "prevent_chestplate_render": {
+    "type": "origins:prevent_feature_render",
+    "features": [
+      "cape"
+    ]
+  },
+  "cape_default": {
+    "hidden": true,
+    "type": "origins:elytra_flight",
+    "render_elytra": true,
+    "texture_location": "skykid:textures/entity/cape_default.png",
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "chest",
+      "item_condition": {
+        "type": "origins:empty"
+      }
     }
   }
 }

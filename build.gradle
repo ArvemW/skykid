@@ -89,7 +89,6 @@ dependencies {
 
 	modImplementation "curse.maven:origins-391943:${project.origins_version}"
 	modImplementation "curse.maven:pehkui-319596:${pehkui_version}"
-	modImplementation "curse.maven:eggolib-645296:${eggolib_version}"
 }
 
 processResources {
