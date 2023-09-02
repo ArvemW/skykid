@@ -9,16 +9,16 @@
         "space": "local"
       },
       {
-        "type": "origins:play_sound",
-        "sound": "skykid:player.flap"
+        "type": "origins:execute_command",
+        "command": "playsound skykid:flap player @a ~ ~ ~ 0.8 1"
       },
       {
-        "type": "origins:play_sound",
-        "sound": "skykid:player.boost"
+        "type": "origins:execute_command",
+        "command": "playsound skykid:boost player @a ~ ~ ~ 0.65 1"
       },
       {
-        "type": "origins:play_sound",
-        "sound": "skykid:player.whoosh"
+        "type": "origins:execute_command",
+        "command": "playsound skykid:whoosh player @a ~ ~ ~ 0.65 1"
       },
       {
         "type": "origins:change_resource",
