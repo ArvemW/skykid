@@ -28,13 +28,6 @@
     "hidden": true,
     "type": "origins:elytra_flight",
     "render_elytra": true,
-    "texture_location": "skykid:textures/entity/cape_default.png",
-    "condition": {
-      "type": "origins:equipped_item",
-      "equipment_slot": "chest",
-      "item_condition": {
-        "type": "origins:empty"
-      }
-    }
+    "texture_location": "skykid:textures/entity/cape_default.png"
   }
 }
