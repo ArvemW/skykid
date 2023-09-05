@@ -21,8 +21,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -59,7 +59,7 @@
     },
     "damage28b": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -78,8 +78,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -116,7 +116,7 @@
     },
     "damage28c": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -135,8 +135,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -173,7 +173,7 @@
     },
     "damage28d": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -192,8 +192,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -230,7 +230,7 @@
     },
     "damage28e": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -249,8 +249,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -287,7 +287,7 @@
     },
     "damage28f": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -306,8 +306,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -344,7 +344,7 @@
     },
     "damage28g": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -363,8 +363,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -401,7 +401,7 @@
     },
     "damage28h": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -420,8 +420,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -458,7 +458,7 @@
     },
     "damage28i": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -477,8 +477,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -515,7 +515,7 @@
     },
     "damage28j": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -534,8 +534,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -572,7 +572,7 @@
     },
     "damage28k": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -591,8 +591,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -629,7 +629,7 @@
     },
     "damage28l": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -648,8 +648,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -686,7 +686,7 @@
     },
     "damage28m": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -705,8 +705,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -743,7 +743,7 @@
     },
     "damage28n": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -762,8 +762,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -800,7 +800,7 @@
     },
     "damage28o": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -819,8 +819,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -857,7 +857,7 @@
     },
     "damage28p": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -876,8 +876,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -914,7 +914,7 @@
     },
     "damage28q": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -933,8 +933,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -971,7 +971,7 @@
     },
     "damage28r": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -990,8 +990,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -1028,7 +1028,7 @@
     },
     "damage28s": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -1047,8 +1047,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -1085,7 +1085,7 @@
     },
     "damage28t": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -1104,8 +1104,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -1142,7 +1142,7 @@
     },
     "damage28u": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -1161,8 +1161,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -1199,7 +1199,7 @@
     },
     "damage28v": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -1218,8 +1218,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -1256,7 +1256,7 @@
     },
     "damage28w": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -1275,8 +1275,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -1313,7 +1313,7 @@
     },
     "damage28x": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -1332,8 +1332,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -1370,7 +1370,7 @@
     },
     "damage28y": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -1389,8 +1389,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -1427,7 +1427,7 @@
     },
     "damage28z": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -1446,8 +1446,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -1484,7 +1484,7 @@
     },
     "damage28za": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -1503,8 +1503,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -1541,7 +1541,7 @@
     },
     "damage28zb": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -1560,8 +1560,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -1598,15 +1598,15 @@
     },
     "damage28": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:change_resource",
             "resource": "skykid:armor_resource",
             "change": -448
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -1632,7 +1632,7 @@
     },
     "damage29a": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -1651,8 +1651,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -1689,7 +1689,7 @@
     },
     "damage29b": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -1708,8 +1708,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -1746,7 +1746,7 @@
     },
     "damage29c": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -1765,8 +1765,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -1803,7 +1803,7 @@
     },
     "damage29d": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -1822,8 +1822,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -1860,7 +1860,7 @@
     },
     "damage29e": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -1879,8 +1879,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -1917,7 +1917,7 @@
     },
     "damage29f": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -1936,8 +1936,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -1974,7 +1974,7 @@
     },
     "damage29g": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -1993,8 +1993,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -2031,7 +2031,7 @@
     },
     "damage29h": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -2050,8 +2050,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -2088,7 +2088,7 @@
     },
     "damage29i": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -2107,8 +2107,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -2145,7 +2145,7 @@
     },
     "damage29j": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -2164,8 +2164,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -2202,7 +2202,7 @@
     },
     "damage29k": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -2221,8 +2221,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -2259,7 +2259,7 @@
     },
     "damage29l": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -2278,8 +2278,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -2316,7 +2316,7 @@
     },
     "damage29m": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -2335,8 +2335,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -2373,7 +2373,7 @@
     },
     "damage29n": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -2392,8 +2392,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -2430,7 +2430,7 @@
     },
     "damage29o": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -2449,8 +2449,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -2487,7 +2487,7 @@
     },
     "damage29p": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -2506,8 +2506,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -2544,7 +2544,7 @@
     },
     "damage29q": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -2563,8 +2563,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -2601,7 +2601,7 @@
     },
     "damage29r": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -2620,8 +2620,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -2658,7 +2658,7 @@
     },
     "damage29s": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -2677,8 +2677,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -2715,7 +2715,7 @@
     },
     "damage29t": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -2734,8 +2734,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -2772,7 +2772,7 @@
     },
     "damage29u": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -2791,8 +2791,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -2829,7 +2829,7 @@
     },
     "damage29v": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -2848,8 +2848,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -2886,7 +2886,7 @@
     },
     "damage29w": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -2905,8 +2905,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -2943,7 +2943,7 @@
     },
     "damage29x": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -2962,8 +2962,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -3000,7 +3000,7 @@
     },
     "damage29y": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -3019,8 +3019,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -3057,7 +3057,7 @@
     },
     "damage29z": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -3076,8 +3076,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -3114,7 +3114,7 @@
     },
     "damage29za": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -3133,8 +3133,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -3171,7 +3171,7 @@
     },
     "damage29zb": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -3190,8 +3190,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -3228,7 +3228,7 @@
     },
     "damage29zc": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -3247,8 +3247,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -3285,15 +3285,15 @@
     },
     "damage29": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:change_resource",
             "resource": "skykid:armor_resource",
             "change": -464
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -3319,7 +3319,7 @@
     },
     "damage30a": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -3338,8 +3338,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -3376,7 +3376,7 @@
     },
     "damage30b": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -3395,8 +3395,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -3433,7 +3433,7 @@
     },
     "damage30c": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -3452,8 +3452,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -3490,7 +3490,7 @@
     },
     "damage30d": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -3509,8 +3509,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -3547,7 +3547,7 @@
     },
     "damage30e": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -3566,8 +3566,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -3604,7 +3604,7 @@
     },
     "damage30f": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -3623,8 +3623,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -3661,7 +3661,7 @@
     },
     "damage30g": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -3680,8 +3680,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -3718,7 +3718,7 @@
     },
     "damage30h": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -3737,8 +3737,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -3775,7 +3775,7 @@
     },
     "damage30i": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -3794,8 +3794,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -3832,7 +3832,7 @@
     },
     "damage30j": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -3851,8 +3851,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -3889,7 +3889,7 @@
     },
     "damage30k": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -3908,8 +3908,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -3946,7 +3946,7 @@
     },
     "damage30l": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -3965,8 +3965,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -4003,7 +4003,7 @@
     },
     "damage30m": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -4022,8 +4022,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -4060,7 +4060,7 @@
     },
     "damage30n": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -4079,8 +4079,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -4117,7 +4117,7 @@
     },
     "damage30o": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -4136,8 +4136,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -4174,7 +4174,7 @@
     },
     "damage30p": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -4193,8 +4193,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -4231,7 +4231,7 @@
     },
     "damage30q": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -4250,8 +4250,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -4288,7 +4288,7 @@
     },
     "damage30r": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -4307,8 +4307,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -4345,7 +4345,7 @@
     },
     "damage30s": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -4364,8 +4364,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -4402,7 +4402,7 @@
     },
     "damage30t": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -4421,8 +4421,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -4459,7 +4459,7 @@
     },
     "damage30u": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -4478,8 +4478,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -4516,7 +4516,7 @@
     },
     "damage30v": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -4535,8 +4535,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -4573,7 +4573,7 @@
     },
     "damage30w": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -4592,8 +4592,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -4630,7 +4630,7 @@
     },
     "damage30x": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -4649,8 +4649,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -4687,7 +4687,7 @@
     },
     "damage30y": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -4706,8 +4706,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -4744,7 +4744,7 @@
     },
     "damage30z": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -4763,8 +4763,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -4801,7 +4801,7 @@
     },
     "damage30za": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -4820,8 +4820,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -4858,7 +4858,7 @@
     },
     "damage30zb": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -4877,8 +4877,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -4915,7 +4915,7 @@
     },
     "damage30zc": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -4934,8 +4934,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -4972,7 +4972,7 @@
     },
     "damage30zd": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -4991,8 +4991,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -5029,15 +5029,15 @@
     },
     "damage30": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:change_resource",
             "resource": "skykid:armor_resource",
             "change": -480
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -5063,7 +5063,7 @@
     },
     "damage31a": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -5082,8 +5082,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -5120,7 +5120,7 @@
     },
     "damage31b": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -5139,8 +5139,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -5177,7 +5177,7 @@
     },
     "damage31c": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -5196,8 +5196,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -5234,7 +5234,7 @@
     },
     "damage31d": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -5253,8 +5253,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -5291,7 +5291,7 @@
     },
     "damage31e": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -5310,8 +5310,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -5348,7 +5348,7 @@
     },
     "damage31f": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -5367,8 +5367,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -5405,7 +5405,7 @@
     },
     "damage31g": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -5424,8 +5424,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -5462,7 +5462,7 @@
     },
     "damage31h": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -5481,8 +5481,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -5519,7 +5519,7 @@
     },
     "damage31i": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -5538,8 +5538,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -5576,7 +5576,7 @@
     },
     "damage31j": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -5595,8 +5595,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -5633,7 +5633,7 @@
     },
     "damage31k": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -5652,8 +5652,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -5690,7 +5690,7 @@
     },
     "damage31l": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -5709,8 +5709,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -5747,7 +5747,7 @@
     },
     "damage31m": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -5766,8 +5766,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -5804,7 +5804,7 @@
     },
     "damage31n": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -5823,8 +5823,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -5861,7 +5861,7 @@
     },
     "damage31o": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -5880,8 +5880,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -5918,7 +5918,7 @@
     },
     "damage31p": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -5937,8 +5937,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -5975,7 +5975,7 @@
     },
     "damage31q": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -5994,8 +5994,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -6032,7 +6032,7 @@
     },
     "damage31r": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -6051,8 +6051,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -6089,7 +6089,7 @@
     },
     "damage31s": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -6108,8 +6108,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -6146,7 +6146,7 @@
     },
     "damage31t": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -6165,8 +6165,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -6203,7 +6203,7 @@
     },
     "damage31u": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -6222,8 +6222,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -6260,7 +6260,7 @@
     },
     "damage31v": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -6279,8 +6279,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -6317,7 +6317,7 @@
     },
     "damage31w": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -6336,8 +6336,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -6374,7 +6374,7 @@
     },
     "damage31x": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -6393,8 +6393,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -6431,7 +6431,7 @@
     },
     "damage31y": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -6450,8 +6450,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -6488,7 +6488,7 @@
     },
     "damage31z": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -6507,8 +6507,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -6545,7 +6545,7 @@
     },
     "damage31za": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -6564,8 +6564,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -6602,7 +6602,7 @@
     },
     "damage31zb": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -6621,8 +6621,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -6659,7 +6659,7 @@
     },
     "damage31zc": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -6678,8 +6678,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -6716,7 +6716,7 @@
     },
     "damage31zd": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -6735,8 +6735,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -6773,7 +6773,7 @@
     },
     "damage31ze": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -6792,8 +6792,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -6830,15 +6830,15 @@
     },
     "damage31": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:change_resource",
             "resource": "skykid:armor_resource",
             "change": -496
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -6864,7 +6864,7 @@
     },
     "damage32a": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -6883,8 +6883,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -6921,7 +6921,7 @@
     },
     "damage32b": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -6940,8 +6940,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -6978,7 +6978,7 @@
     },
     "damage32c": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -6997,8 +6997,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -7035,7 +7035,7 @@
     },
     "damage32d": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -7054,8 +7054,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -7092,7 +7092,7 @@
     },
     "damage32e": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -7111,8 +7111,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -7149,7 +7149,7 @@
     },
     "damage32f": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -7168,8 +7168,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -7206,7 +7206,7 @@
     },
     "damage32g": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -7225,8 +7225,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -7263,7 +7263,7 @@
     },
     "damage32h": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -7282,8 +7282,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -7320,7 +7320,7 @@
     },
     "damage32i": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -7339,8 +7339,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -7377,7 +7377,7 @@
     },
     "damage32j": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -7396,8 +7396,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -7434,7 +7434,7 @@
     },
     "damage32k": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -7453,8 +7453,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -7491,7 +7491,7 @@
     },
     "damage32l": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -7510,8 +7510,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -7548,7 +7548,7 @@
     },
     "damage32m": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -7567,8 +7567,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -7605,7 +7605,7 @@
     },
     "damage32n": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -7624,8 +7624,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -7662,7 +7662,7 @@
     },
     "damage32o": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -7681,8 +7681,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -7719,7 +7719,7 @@
     },
     "damage32p": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -7738,8 +7738,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -7776,7 +7776,7 @@
     },
     "damage32q": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -7795,8 +7795,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -7833,7 +7833,7 @@
     },
     "damage32r": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -7852,8 +7852,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -7890,7 +7890,7 @@
     },
     "damage32s": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -7909,8 +7909,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -7947,7 +7947,7 @@
     },
     "damage32t": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -7966,8 +7966,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -8004,7 +8004,7 @@
     },
     "damage32u": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -8023,8 +8023,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -8061,7 +8061,7 @@
     },
     "damage32v": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -8080,8 +8080,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -8118,7 +8118,7 @@
     },
     "damage32w": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -8137,8 +8137,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -8175,7 +8175,7 @@
     },
     "damage32x": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -8194,8 +8194,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -8232,7 +8232,7 @@
     },
     "damage32y": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -8251,8 +8251,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -8289,7 +8289,7 @@
     },
     "damage32z": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -8308,8 +8308,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -8346,7 +8346,7 @@
     },
     "damage32za": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -8365,8 +8365,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -8403,7 +8403,7 @@
     },
     "damage32zb": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -8422,8 +8422,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -8460,7 +8460,7 @@
     },
     "damage32zc": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -8479,8 +8479,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -8517,7 +8517,7 @@
     },
     "damage32zd": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -8536,8 +8536,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -8574,7 +8574,7 @@
     },
     "damage32ze": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -8593,8 +8593,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -8631,7 +8631,7 @@
     },
     "damage32zf": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -8650,8 +8650,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -8688,15 +8688,15 @@
     },
     "damage32": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:change_resource",
             "resource": "skykid:armor_resource",
             "change": -512
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -8722,7 +8722,7 @@
     },
     "damage33a": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -8741,8 +8741,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -8779,7 +8779,7 @@
     },
     "damage33b": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -8798,8 +8798,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -8836,7 +8836,7 @@
     },
     "damage33c": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -8855,8 +8855,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -8893,7 +8893,7 @@
     },
     "damage33d": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -8912,8 +8912,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -8950,7 +8950,7 @@
     },
     "damage33e": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -8969,8 +8969,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -9007,7 +9007,7 @@
     },
     "damage33f": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -9026,8 +9026,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -9064,7 +9064,7 @@
     },
     "damage33g": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -9083,8 +9083,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -9121,7 +9121,7 @@
     },
     "damage33h": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -9140,8 +9140,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -9178,7 +9178,7 @@
     },
     "damage33i": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -9197,8 +9197,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -9235,7 +9235,7 @@
     },
     "damage33j": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -9254,8 +9254,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -9292,7 +9292,7 @@
     },
     "damage33k": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -9311,8 +9311,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -9349,7 +9349,7 @@
     },
     "damage33l": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -9368,8 +9368,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -9406,7 +9406,7 @@
     },
     "damage33m": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -9425,8 +9425,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -9463,7 +9463,7 @@
     },
     "damage33n": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -9482,8 +9482,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -9520,7 +9520,7 @@
     },
     "damage33o": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -9539,8 +9539,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -9577,7 +9577,7 @@
     },
     "damage33p": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -9596,8 +9596,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -9634,7 +9634,7 @@
     },
     "damage33q": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -9653,8 +9653,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -9691,7 +9691,7 @@
     },
     "damage33r": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -9710,8 +9710,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -9748,7 +9748,7 @@
     },
     "damage33s": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -9767,8 +9767,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -9805,7 +9805,7 @@
     },
     "damage33t": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -9824,8 +9824,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -9862,7 +9862,7 @@
     },
     "damage33u": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -9881,8 +9881,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -9919,7 +9919,7 @@
     },
     "damage33v": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -9938,8 +9938,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -9976,7 +9976,7 @@
     },
     "damage33w": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -9995,8 +9995,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -10033,7 +10033,7 @@
     },
     "damage33x": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -10052,8 +10052,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -10090,7 +10090,7 @@
     },
     "damage33y": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -10109,8 +10109,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -10147,7 +10147,7 @@
     },
     "damage33z": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -10166,8 +10166,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -10204,7 +10204,7 @@
     },
     "damage33za": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -10223,8 +10223,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -10261,7 +10261,7 @@
     },
     "damage33zb": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -10280,8 +10280,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -10318,7 +10318,7 @@
     },
     "damage33zc": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -10337,8 +10337,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -10375,7 +10375,7 @@
     },
     "damage33zd": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -10394,8 +10394,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -10432,7 +10432,7 @@
     },
     "damage33ze": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -10451,8 +10451,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -10489,7 +10489,7 @@
     },
     "damage33zf": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -10508,8 +10508,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -10546,7 +10546,7 @@
     },
     "damage33zg": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -10565,8 +10565,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -10603,15 +10603,15 @@
     },
     "damage33": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:change_resource",
             "resource": "skykid:armor_resource",
             "change": -528
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -10637,7 +10637,7 @@
     },
     "damage34a": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -10656,8 +10656,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -10694,7 +10694,7 @@
     },
     "damage34b": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -10713,8 +10713,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -10751,7 +10751,7 @@
     },
     "damage34c": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -10770,8 +10770,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -10808,7 +10808,7 @@
     },
     "damage34d": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -10827,8 +10827,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -10865,7 +10865,7 @@
     },
     "damage34e": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -10884,8 +10884,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -10922,7 +10922,7 @@
     },
     "damage34f": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -10941,8 +10941,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -10979,7 +10979,7 @@
     },
     "damage34g": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -10998,8 +10998,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -11036,7 +11036,7 @@
     },
     "damage34h": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -11055,8 +11055,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -11093,7 +11093,7 @@
     },
     "damage34i": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -11112,8 +11112,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -11150,7 +11150,7 @@
     },
     "damage34j": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -11169,8 +11169,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -11207,7 +11207,7 @@
     },
     "damage34k": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -11226,8 +11226,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -11264,7 +11264,7 @@
     },
     "damage34l": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -11283,8 +11283,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -11321,7 +11321,7 @@
     },
     "damage34m": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -11340,8 +11340,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -11378,7 +11378,7 @@
     },
     "damage34n": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -11397,8 +11397,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -11435,7 +11435,7 @@
     },
     "damage34o": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -11454,8 +11454,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -11492,7 +11492,7 @@
     },
     "damage34p": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -11511,8 +11511,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -11549,7 +11549,7 @@
     },
     "damage34q": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -11568,8 +11568,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -11606,7 +11606,7 @@
     },
     "damage34r": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -11625,8 +11625,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -11663,7 +11663,7 @@
     },
     "damage34s": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -11682,8 +11682,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -11720,7 +11720,7 @@
     },
     "damage34t": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -11739,8 +11739,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -11777,7 +11777,7 @@
     },
     "damage34u": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -11796,8 +11796,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -11834,7 +11834,7 @@
     },
     "damage34v": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -11853,8 +11853,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -11891,7 +11891,7 @@
     },
     "damage34w": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -11910,8 +11910,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -11948,7 +11948,7 @@
     },
     "damage34x": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -11967,8 +11967,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -12005,7 +12005,7 @@
     },
     "damage34y": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -12024,8 +12024,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -12062,7 +12062,7 @@
     },
     "damage34z": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -12081,8 +12081,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -12119,7 +12119,7 @@
     },
     "damage34za": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -12138,8 +12138,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -12176,7 +12176,7 @@
     },
     "damage34zb": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -12195,8 +12195,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -12233,7 +12233,7 @@
     },
     "damage34zc": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -12252,8 +12252,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -12290,7 +12290,7 @@
     },
     "damage34zd": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -12309,8 +12309,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -12347,7 +12347,7 @@
     },
     "damage34ze": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -12366,8 +12366,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -12404,7 +12404,7 @@
     },
     "damage34zf": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -12423,8 +12423,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -12461,7 +12461,7 @@
     },
     "damage34zg": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -12480,8 +12480,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -12518,7 +12518,7 @@
     },
     "damage34zh": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -12537,8 +12537,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -12575,15 +12575,15 @@
     },
     "damage34": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:change_resource",
             "resource": "skykid:armor_resource",
             "change": -544
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -12609,7 +12609,7 @@
     },
     "damage35a": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -12628,8 +12628,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -12661,7 +12661,7 @@
     },
     "damage35b": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -12680,8 +12680,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -12713,7 +12713,7 @@
     },
     "damage35c": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -12732,8 +12732,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -12765,7 +12765,7 @@
     },
     "damage35d": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -12784,8 +12784,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -12817,7 +12817,7 @@
     },
     "damage35e": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -12836,8 +12836,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -12869,7 +12869,7 @@
     },
     "damage35f": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -12888,8 +12888,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -12921,7 +12921,7 @@
     },
     "damage35g": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -12940,8 +12940,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -12973,7 +12973,7 @@
     },
     "damage35h": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -12992,8 +12992,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -13025,7 +13025,7 @@
     },
     "damage35i": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -13044,8 +13044,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -13077,7 +13077,7 @@
     },
     "damage35j": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -13096,8 +13096,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -13129,7 +13129,7 @@
     },
     "damage35k": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -13148,8 +13148,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -13181,7 +13181,7 @@
     },
     "damage35l": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -13200,8 +13200,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -13233,7 +13233,7 @@
     },
     "damage35m": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -13252,8 +13252,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -13285,7 +13285,7 @@
     },
     "damage35n": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -13304,8 +13304,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -13337,7 +13337,7 @@
     },
     "damage35o": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -13356,8 +13356,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -13389,7 +13389,7 @@
     },
     "damage35p": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -13408,8 +13408,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -13441,7 +13441,7 @@
     },
     "damage35q": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -13460,8 +13460,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -13493,7 +13493,7 @@
     },
     "damage35r": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -13512,8 +13512,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -13545,7 +13545,7 @@
     },
     "damage35s": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -13564,8 +13564,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -13597,7 +13597,7 @@
     },
     "damage35t": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -13616,8 +13616,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -13649,7 +13649,7 @@
     },
     "damage35u": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -13668,8 +13668,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -13701,7 +13701,7 @@
     },
     "damage35v": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -13720,8 +13720,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -13753,7 +13753,7 @@
     },
     "damage35w": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -13772,8 +13772,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -13805,7 +13805,7 @@
     },
     "damage35x": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -13824,8 +13824,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -13857,7 +13857,7 @@
     },
     "damage35y": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -13876,8 +13876,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -13909,7 +13909,7 @@
     },
     "damage35z": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -13928,8 +13928,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -13961,7 +13961,7 @@
     },
     "damage35za": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -13980,8 +13980,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -14013,7 +14013,7 @@
     },
     "damage35zb": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -14032,8 +14032,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -14065,7 +14065,7 @@
     },
     "damage35zc": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -14084,8 +14084,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -14117,7 +14117,7 @@
     },
     "damage35zd": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -14136,8 +14136,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -14169,7 +14169,7 @@
     },
     "damage35ze": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -14188,8 +14188,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -14221,7 +14221,7 @@
     },
     "damage35zf": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -14240,8 +14240,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -14273,7 +14273,7 @@
     },
     "damage35zg": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -14292,8 +14292,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -14325,7 +14325,7 @@
     },
     "damage35zh": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -14344,8 +14344,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -14377,7 +14377,7 @@
     },
     "damage35zi": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:and",
             "actions": [
@@ -14396,8 +14396,8 @@
             ]
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
@@ -14429,15 +14429,15 @@
     },
     "damage35": {
         "type": "origins:modify_damage_taken",
-        
+
         "self_action": {
             "type": "origins:change_resource",
             "resource": "skykid:armor_resource",
             "change": -560
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": -1
+            "operation": "set_total",
+            "value": 0.01
         },
         "damage_condition": {
             "type": "origins:and",
