@@ -1,0 +1,9 @@
+{
+	"type": "origins:prevent_sleep",
+	"message": "You can't sleep, the void tugs at your consciousness.",
+	"block_condition": {
+		"type": "origins:light_level",
+		"comparison": "<=",
+		"compare_to": 8
+	}
+}

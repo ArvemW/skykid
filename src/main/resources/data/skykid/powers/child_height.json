@@ -1,23 +1,432 @@
 {
 	"hidden": true,
     "type": "origins:action_on_callback",
-    "entity_action_chosen": {
-		"type": "origins:and",
+	"entity_action_respawned": {
+		"type": "origins:choice",
 		"actions": [
-		{
-			"type": "origins:execute_command",
-			"command": "scale set pehkui:height 0.65 @s"
-		},
-		{
-			"type": "origins:execute_command",
-			"command": "scale set pehkui:width 0.65 @s"
-		},
-		{
-			"type": "origins:execute_command",
-			"command": "scale persist set true @s"
-		}
+			{
+				"element": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:change_resource",
+							"resource": "skykid:armor_resource",
+							"operation": "set",
+							"change": 560
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale set pehkui:height 0.50 @s"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale set pehkui:width 0.50 @s"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale persist set true @s"
+						}
+					]
+				},
+				"weight": 10
+			},
+			{
+				"element": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:change_resource",
+							"resource": "skykid:armor_resource",
+							"operation": "set",
+							"change": 560
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale set pehkui:height 0.525 @s"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale set pehkui:width 0.525 @s"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale persist set true @s"
+						}
+					]
+				},
+				"weight": 10
+			},
+			{
+				"element": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:change_resource",
+							"resource": "skykid:armor_resource",
+							"operation": "set",
+							"change": 560
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale set pehkui:height 0.55 @s"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale set pehkui:width 0.55 @s"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale persist set true @s"
+						}
+					]
+				},
+				"weight": 10
+			},
+			{
+				"element": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:change_resource",
+							"resource": "skykid:armor_resource",
+							"operation": "set",
+							"change": 560
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale set pehkui:height 0.575 @s"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale set pehkui:width 0.575 @s"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale persist set true @s"
+						}
+					]
+				},
+				"weight": 10
+			},
+			{
+				"element": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:change_resource",
+							"resource": "skykid:armor_resource",
+							"operation": "set",
+							"change": 560
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale set pehkui:height 0.60 @s"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale set pehkui:width 0.60 @s"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale persist set true @s"
+						}
+					]
+				},
+				"weight": 10
+			},
+			{
+				"element": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:change_resource",
+							"resource": "skykid:armor_resource",
+							"operation": "set",
+							"change": 560
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale set pehkui:height 0.625 @s"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale set pehkui:width 0.625 @s"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale persist set true @s"
+						}
+					]
+				},
+				"weight": 10
+			},
+			{
+				"element": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:change_resource",
+							"resource": "skykid:armor_resource",
+							"operation": "set",
+							"change": 560
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale set pehkui:height 0.65 @s"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale set pehkui:width 0.65 @s"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale persist set true @s"
+						}
+					]
+				},
+				"weight": 10
+			},
+			{
+				"element": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:change_resource",
+							"resource": "skykid:armor_resource",
+							"operation": "set",
+							"change": 560
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale set pehkui:height 0.665 @s"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale set pehkui:width 0.665 @s"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale persist set true @s"
+						}
+					]
+				},
+				"weight": 10
+			}
 		]
-    },
+	},
+	"entity_action_chosen": {
+		"type": "origins:choice",
+		"actions": [
+			{
+				"element": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:change_resource",
+							"resource": "skykid:armor_resource",
+							"operation": "set",
+							"change": 560
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale set pehkui:height 0.50 @s"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale set pehkui:width 0.50 @s"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale persist set true @s"
+						}
+					]
+				},
+				"weight": 10
+			},
+			{
+				"element": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:change_resource",
+							"resource": "skykid:armor_resource",
+							"operation": "set",
+							"change": 560
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale set pehkui:height 0.525 @s"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale set pehkui:width 0.525 @s"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale persist set true @s"
+						}
+					]
+				},
+				"weight": 10
+			},
+			{
+				"element": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:change_resource",
+							"resource": "skykid:armor_resource",
+							"operation": "set",
+							"change": 560
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale set pehkui:height 0.55 @s"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale set pehkui:width 0.55 @s"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale persist set true @s"
+						}
+					]
+				},
+				"weight": 10
+			},
+			{
+				"element": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:change_resource",
+							"resource": "skykid:armor_resource",
+							"operation": "set",
+							"change": 560
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale set pehkui:height 0.575 @s"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale set pehkui:width 0.575 @s"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale persist set true @s"
+						}
+					]
+				},
+				"weight": 10
+			},
+			{
+				"element": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:change_resource",
+							"resource": "skykid:armor_resource",
+							"operation": "set",
+							"change": 560
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale set pehkui:height 0.60 @s"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale set pehkui:width 0.60 @s"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale persist set true @s"
+						}
+					]
+				},
+				"weight": 10
+			},
+			{
+				"element": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:change_resource",
+							"resource": "skykid:armor_resource",
+							"operation": "set",
+							"change": 560
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale set pehkui:height 0.625 @s"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale set pehkui:width 0.625 @s"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale persist set true @s"
+						}
+					]
+				},
+				"weight": 10
+			},
+			{
+				"element": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:change_resource",
+							"resource": "skykid:armor_resource",
+							"operation": "set",
+							"change": 560
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale set pehkui:height 0.65 @s"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale set pehkui:width 0.65 @s"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale persist set true @s"
+						}
+					]
+				},
+				"weight": 10
+			},
+			{
+				"element": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:change_resource",
+							"resource": "skykid:armor_resource",
+							"operation": "set",
+							"change": 560
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale set pehkui:height 0.665 @s"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale set pehkui:width 0.665 @s"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "scale persist set true @s"
+						}
+					]
+				},
+				"weight": 10
+			}
+		]
+	},
     "entity_action_lost": {
         "type": "origins:execute_command",
         "command": "scale reset @s"

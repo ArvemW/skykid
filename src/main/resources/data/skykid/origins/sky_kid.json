@@ -15,7 +15,8 @@
 		"skykid:lightless",
 		"skykid:knockback",
 		"skykid:heartbeat",
-		"skykid:shield_restrict"
+		"skykid:shield_restrict",
+		"skykid:night_light"
 	],
 	"icon": {
 		"item": "minecraft:red_candle"

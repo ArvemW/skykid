@@ -27,6 +27,8 @@
     "power.skykid.shield_restrict.description": "Due to your small hands and short stature, shields are too bulky and unwieldy for you to actually use.",
     "power.skykid.wing_boost.name": "§nCape Boost",
     "power.skykid.wing_boost.description": "Trying to jump while gliding will use some Light to give you a short burst of speed to fly longer.",
+    "power.skykid.night_light.name": "Night Light",
+    "power.skykid.night_light.description": "You can't sleep in darkness.",
 
     "death.attack.lightout": "%1$s ran out of light",
     "death.attack.lightout.player": "%1$s ran out of light whilst fighting %2$s",

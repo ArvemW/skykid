@@ -35,6 +35,10 @@
                 "show_icon": false,
                 "show_particles": false
               }
+            },
+            {
+              "type": "origins:emit_game_event",
+              "event": "minecraft:step"
             }
           ]
         }
@@ -56,7 +60,7 @@
         },
         "action": {
           "type": "origins:execute_command",
-          "command": "playsound skykid:default player @a ~ ~ ~ 0.8 1"
+          "command": "playsound skykid:default player @a ~ ~ ~ 0.5 1"
         }
       },
       {
@@ -90,6 +94,10 @@
                 "show_icon": false,
                 "show_particles": false
               }
+            },
+            {
+              "type": "origins:emit_game_event",
+              "event": "minecraft:step"
             }
           ]
         }
@@ -111,7 +119,7 @@
         },
         "action": {
           "type": "origins:execute_command",
-          "command": "playsound skykid:bird player @a ~ ~ ~ 0.8 1"
+          "command": "playsound skykid:bird player @a ~ ~ ~ 0.5 1"
         }
       },
       {
@@ -145,6 +153,10 @@
                 "show_icon": false,
                 "show_particles": false
               }
+            },
+            {
+              "type": "origins:emit_game_event",
+              "event": "minecraft:step"
             }
           ]
         }
@@ -166,7 +178,7 @@
         },
         "action": {
           "type": "origins:execute_command",
-          "command": "playsound skykid:crab player @a ~ ~ ~ 0.8 1"
+          "command": "playsound skykid:crab player @a ~ ~ ~ 0.5 1"
         }
       },
       {
@@ -200,6 +212,10 @@
                 "show_icon": false,
                 "show_particles": false
               }
+            },
+            {
+              "type": "origins:emit_game_event",
+              "event": "minecraft:step"
             }
           ]
         }
@@ -221,7 +237,7 @@
         },
         "action": {
           "type": "origins:execute_command",
-          "command": "playsound skykid:ghost player @a ~ ~ ~ 0.8 1"
+          "command": "playsound skykid:ghost player @a ~ ~ ~ 0.5 1"
         }
       },
       {
@@ -255,6 +271,10 @@
                 "show_icon": false,
                 "show_particles": false
               }
+            },
+            {
+              "type": "origins:emit_game_event",
+              "event": "minecraft:step"
             }
           ]
         }
@@ -276,7 +296,7 @@
         },
         "action": {
           "type": "origins:execute_command",
-          "command": "playsound skykid:whale player @a ~ ~ ~ 0.8 1"
+          "command": "playsound skykid:whale player @a ~ ~ ~ 0.5 1"
         }
       },
       {
@@ -310,6 +330,10 @@
                 "show_icon": false,
                 "show_particles": false
               }
+            },
+            {
+              "type": "origins:emit_game_event",
+              "event": "minecraft:step"
             }
           ]
         }
@@ -331,7 +355,7 @@
         },
         "action": {
           "type": "origins:execute_command",
-          "command": "playsound skykid:jelly player @a ~ ~ ~ 0.8 1"
+          "command": "playsound skykid:jelly player @a ~ ~ ~ 0.5 1"
         }
       },
       {
@@ -365,6 +389,10 @@
                 "show_icon": false,
                 "show_particles": false
               }
+            },
+            {
+              "type": "origins:emit_game_event",
+              "event": "minecraft:step"
             }
           ]
         }
@@ -386,7 +414,7 @@
         },
         "action": {
           "type": "origins:execute_command",
-          "command": "playsound skykid:manta player @a ~ ~ ~ 0.8 1"
+          "command": "playsound skykid:manta player @a ~ ~ ~ 0.5 1"
         }
       }
     ]
