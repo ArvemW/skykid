@@ -31,7 +31,7 @@
               "type": "origins:apply_effect",
               "effect": {
                 "effect": "minecraft:glowing",
-                "duration": 5,
+                "duration": 15,
                 "show_icon": false,
                 "show_particles": false
               }
@@ -90,7 +90,7 @@
               "type": "origins:apply_effect",
               "effect": {
                 "effect": "minecraft:glowing",
-                "duration": 5,
+                "duration": 15,
                 "show_icon": false,
                 "show_particles": false
               }
@@ -149,7 +149,7 @@
               "type": "origins:apply_effect",
               "effect": {
                 "effect": "minecraft:glowing",
-                "duration": 5,
+                "duration": 15,
                 "show_icon": false,
                 "show_particles": false
               }
@@ -208,7 +208,7 @@
               "type": "origins:apply_effect",
               "effect": {
                 "effect": "minecraft:glowing",
-                "duration": 5,
+                "duration": 15,
                 "show_icon": false,
                 "show_particles": false
               }
@@ -267,7 +267,7 @@
               "type": "origins:apply_effect",
               "effect": {
                 "effect": "minecraft:glowing",
-                "duration": 5,
+                "duration": 15,
                 "show_icon": false,
                 "show_particles": false
               }
@@ -326,7 +326,7 @@
               "type": "origins:apply_effect",
               "effect": {
                 "effect": "minecraft:glowing",
-                "duration": 5,
+                "duration": 15,
                 "show_icon": false,
                 "show_particles": false
               }
@@ -385,7 +385,7 @@
               "type": "origins:apply_effect",
               "effect": {
                 "effect": "minecraft:glowing",
-                "duration": 5,
+                "duration": 15,
                 "show_icon": false,
                 "show_particles": false
               }
