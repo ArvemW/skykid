@@ -29,6 +29,8 @@
     "power.skykid.wing_boost.description": "Trying to jump while gliding will use some Light to give you a short burst of speed to fly longer.",
     "power.skykid.night_light.name": "Night Light",
     "power.skykid.night_light.description": "You can't sleep in darkness.",
+    "power.skykid.darkness_bad.name": "Fear of the Unknown",
+    "power.skykid.darkness_bad.description": "You are weaker in extremely dark areas unless holding a decent light source. As well, the Deep Dark tarnishes your Light.",
 
     "death.attack.lightout": "%1$s ran out of light",
     "death.attack.lightout.player": "%1$s ran out of light whilst fighting %2$s",

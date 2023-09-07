@@ -1,0 +1,78 @@
+{
+	"type": "origins:multiple",
+	"darkness_weakness": {
+		"type": "origins:stacking_status_effect",
+		"min_stacks": 0,
+		"max_stacks": 5,
+		"duration_per_stack": 40,
+		"effects": [
+			{
+				"effect": "minecraft:weakness",
+				"is_ambient": true,
+				"show_particles": false,
+				"show_icon": true
+			}
+		],
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:exposed_to_sky",
+					"inverted": true
+				},
+				{
+					"type": "origins:in_block",
+					"block_condition": {
+						"type": "origins:light_level",
+						"comparison": "<=",
+						"compare_to": 5
+					}
+				},
+				{
+					"type": "origins:equipped_item",
+					"inverted": true,
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"tag": "skykid:prime_sources"
+						}
+					}
+				},
+				{
+					"type": "origins:equipped_item",
+					"inverted": true,
+					"equipment_slot": "offhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"tag": "skykid:prime_sources"
+						}
+					}
+				},
+				{
+					"type": "origins:equipped_item",
+					"inverted": true,
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"tag": "skykid:average_sources"
+						}
+					}
+				},
+				{
+					"type": "origins:equipped_item",
+					"inverted": true,
+					"equipment_slot": "offhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"tag": "skykid:average_sources"
+						}
+					}
+				}
+			]
+		}
+	}
+}
