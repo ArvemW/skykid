@@ -2,10 +2,18 @@
     "origin.skykid.sky_kid.name": "Child of the Light",
     "origin.skykid.sky_kid.description": "With the stars united, our light was infinite. But darkness came and the stars fell. A long time has passed... wake up Child of the Light, your adventure begins now.",
     "item.skykid.winged_light": "Winged Light",
+    "item.skykid.ascended_light": "Light of Ascension",
 
     "item.skykid.cape_default": "Moth Cape",
     "item.skykid.cape_black": "Black Cape",
     "item.skykid.cape_white": "White Cape",
+    "item.skykid.cape_yellow": "Yellow Cape",
+    "item.skykid.cape_red": "Red Cape",
+    "item.skykid.cape_green": "Green Cape",
+    "item.skykid.cape_cyan": "Cyan Cape",
+    "item.skykid.cape_blue": "Blue Cape",
+    "item.skykid.cape_purple": "Purple Cape",
+    "item.skykid.cape_pink": "Pink Cape",
 
     "power.skykid.armor.name": "§nDivine Protection",
     "power.skykid.armor.description": "Your Light serves as a shield from damage, using up Light whenever it has to protect you. If your Light runs out, you will be able to take actual damage.",

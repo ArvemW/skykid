@@ -1,9 +1,8 @@
 package arvem.skykid
 
-import arvem.skykid.item.RegisterItems
+import arvem.skykid.registries.RegisterItems
+import arvem.skykid.registries.RegisterSounds
 import net.fabricmc.api.ModInitializer
-import net.minecraft.registry.Registries
-import net.minecraft.registry.Registry
 import org.slf4j.LoggerFactory
 
 
@@ -15,7 +14,6 @@ object Skykid : ModInitializer {
 
 	override fun onInitialize() {
 		logger.info("When kingdom come...")
-		RegisterCapes.register()
 		RegisterItems.init()
 		RegisterSounds.init()
 	}

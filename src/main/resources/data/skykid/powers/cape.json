@@ -18,16 +18,231 @@
       "type": "origins:fall_flying"
     }
   },
-  "prevent_chestplate_render": {
-    "type": "origins:prevent_feature_render",
-    "features": [
-      "cape"
-    ]
-  },
   "cape_default": {
-    "hidden": true,
     "type": "origins:elytra_flight",
     "render_elytra": true,
-    "texture_location": "skykid:textures/entity/cape_default.png"
+    "texture_location": "skykid:textures/entity/cape_default.png",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:living"
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "chest",
+          "item_condition": {
+            "type": "origins:empty"
+          }
+        }
+      ]
+    }
+  },
+  "cape_black": {
+    "type": "origins:elytra_flight",
+    "render_elytra": true,
+    "texture_location": "skykid:textures/entity/cape_black.png",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:living"
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "chest",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "skykid:cape_black"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "cape_white": {
+    "type": "origins:elytra_flight",
+    "render_elytra": true,
+    "texture_location": "skykid:textures/entity/cape_white.png",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:living"
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "chest",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "skykid:cape_white"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "cape_yellow": {
+    "type": "origins:elytra_flight",
+    "render_elytra": true,
+    "texture_location": "skykid:textures/entity/cape_yellow.png",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:living"
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "chest",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "skykid:cape_yellow"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "cape_red": {
+    "type": "origins:elytra_flight",
+    "render_elytra": true,
+    "texture_location": "skykid:textures/entity/cape_red.png",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:living"
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "chest",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "skykid:cape_red"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "cape_green": {
+    "type": "origins:elytra_flight",
+    "render_elytra": true,
+    "texture_location": "skykid:textures/entity/cape_green.png",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:living"
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "chest",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "skykid:cape_green"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "cape_cyan": {
+    "type": "origins:elytra_flight",
+    "render_elytra": true,
+    "texture_location": "skykid:textures/entity/cape_cyan.png",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:living"
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "chest",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "skykid:cape_cyan"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "cape_blue": {
+    "type": "origins:elytra_flight",
+    "render_elytra": true,
+    "texture_location": "skykid:textures/entity/cape_blue.png",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:living"
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "chest",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "skykid:cape_blue"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "cape_purple": {
+    "type": "origins:elytra_flight",
+    "render_elytra": true,
+    "texture_location": "skykid:textures/entity/cape_purple.png",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:living"
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "chest",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "skykid:cape_purple"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "cape_pink": {
+    "type": "origins:elytra_flight",
+    "render_elytra": true,
+    "texture_location": "skykid:textures/entity/cape_pink.png",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:living"
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "chest",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "skykid:cape_pink"
+            }
+          }
+        }
+      ]
+    }
   }
 }

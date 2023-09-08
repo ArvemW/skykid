@@ -38,3 +38,5 @@ hs_err_*.log
 replay_*.log
 *.hprof
 *.jfr
+/src/main/resources/assets/skykid/textures/item/winged_light.mdp
+/src/main/resources/assets/skykid/textures/entity/elytra.png

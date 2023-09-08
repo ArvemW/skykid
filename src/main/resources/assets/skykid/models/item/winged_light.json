@@ -1,6 +1,6 @@
 {
-    "parent": "minecraft:item/generated",
-    "textures": {
-      "layer0": "minecraft:item/nether_star"
-    }
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "skykid:item/winged_light"
   }
+}
