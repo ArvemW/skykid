@@ -1,10 +1,184 @@
 {
-
-    "type": "origins:attribute",
+  "type": "origins:multiple",
+  "resource": {
+    "type": "origins:resource",
+    "name": "health_resource",
+    "min": 6,
+    "max": 12,
+    "start_value": 0,
+    "hud_render": {
+      "should_render": false
+    }
+  },
+  "reset": {
+    "type": "origins:action_on_callback",
+    "entity_action_respawned": {
+      "type": "origins:change_resource",
+      "resource": "skykid:health_resource",
+      "operation": "set",
+      "change": 6
+    },
+    "execute_chosen_when_orb": false
+  },
+  "0": {
+    "type": "origins:conditioned_attribute",
     "modifier": {
       "name": "Fragile health reduction",
       "attribute": "minecraft:generic.max_health",
-      "value": -12.0,
-      "operation": "addition"
+      "operation": "addition",
+      "value": -14,
+      "update_health": true
+    },
+    "tick_rate": 10,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "skykid:health_resource",
+      "comparison": "<=",
+      "compare_to": 6
     }
+  },
+  "1": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "name": "Fragile health reduction",
+      "attribute": "minecraft:generic.max_health",
+      "operation": "addition",
+      "value": -12,
+      "update_health": true
+    },
+    "tick_rate": 10,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "skykid:health_resource",
+          "comparison": "<=",
+          "compare_to": 8
+        },
+        {
+          "type": "origins:resource",
+          "resource": "skykid:health_resource",
+          "comparison": ">",
+          "compare_to": 6
+        }
+      ]
+    }
+  },
+  "2": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "name": "Fragile health reduction",
+      "attribute": "minecraft:generic.max_health",
+      "operation": "addition",
+      "value": -10,
+      "update_health": true
+    },
+    "tick_rate": 10,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "skykid:health_resource",
+          "comparison": "<=",
+          "compare_to": 10
+        },
+        {
+          "type": "origins:resource",
+          "resource": "skykid:health_resource",
+          "comparison": ">",
+          "compare_to": 8
+        }
+      ]
+    }
+  },
+  "3": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "name": "Fragile health reduction",
+      "attribute": "minecraft:generic.max_health",
+      "operation": "addition",
+      "value": -8
+    },
+    "tick_rate": 10,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "skykid:health_resource",
+          "comparison": "<=",
+          "compare_to": 12
+        },
+        {
+          "type": "origins:resource",
+          "resource": "skykid:health_resource",
+          "comparison": ">",
+          "compare_to": 10
+        }
+      ]
+    }
+  },
+  "consume_winged_light": {
+    "type": "origins:active_self",
+    "key": {
+      "key": "key.use"
+    },
+    "hud_render": {
+      "should_render": false
+    },
+    "cooldown": 10,
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:change_resource",
+          "resource": "skykid:health_resource",
+          "operation": "add",
+          "change": 2
+        },
+        {
+          "type": "origins:equipped_item_action",
+          "equipment_slot": "mainhand",
+          "action": {
+            "type": "origins:consume",
+            "amount": 1
+          }
+        },
+        {
+          "type": "origins:play_sound",
+          "sound": "minecraft:entity.player.burp"
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "skykid:winged_light"
+            }
+          }
+        },
+        {
+          "type": "origins:attribute",
+          "attribute": "minecraft:generic.max_health",
+          "comparison": "<",
+          "compare_to": 12
+        },
+        {
+          "type": "origins:resource",
+          "resource": "skykid:health_resource",
+          "comparison": "<",
+          "compare_to": 12
+        }
+      ]
+    },
+    "hidden": true
   }
+}

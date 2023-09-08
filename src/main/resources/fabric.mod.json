@@ -3,12 +3,13 @@
 	"id": "skykid",
 	"version": "${version}",
 	"name": "Sky Kid",
-	"description": "This mod adds an Origin to be a Child of The Light from Sky: COTL with the Origins mod.",
+	"description": "This mod adds an Origin to be a Child of The Light from Sky: Children of the Light.",
 	"authors": [
 		"Arvem"
 	],
 	"contact": {
-		"homepage": "https://www.curseforge.com/minecraft/mc-mods/sky-origins"
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/sky-origins",
+		"sources": "https://github.com/ArvemW/skykid"
 	},
 	"license": "All Rights Reserved",
 	"icon": "assets/skykid/icon.png",
