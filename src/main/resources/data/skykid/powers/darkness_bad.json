@@ -74,5 +74,23 @@
 				}
 			]
 		}
+	},
+	"warden_darkness": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "skykid:armor_resource",
+			"change": -6
+		},
+		"rising_action": {
+			"type": "origins:change_resource",
+			"resource": "skykid:armor_resource",
+			"change": -6
+		},
+		"interval": 1,
+		"condition": {
+			"type": "origins:status_effect",
+			"effect": "minecraft:darkness"
+		}
 	}
 }

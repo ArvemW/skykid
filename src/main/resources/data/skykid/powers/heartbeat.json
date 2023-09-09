@@ -14,14 +14,14 @@
                     "compare_to": 0
                 },
                 {
-                    "type": "origins:health",
+                    "type": "origins:relative_health",
                     "comparison": "<",
-                    "compare_to": 7
+                    "compare_to": 0.875
                 },
                 {
-                    "type": "origins:health",
+                    "type": "origins:relative_health",
                     "comparison": ">=",
-                    "compare_to": 5
+                    "compare_to": 0.625
                 }
             ]
         },
@@ -43,14 +43,14 @@
                     "compare_to": 0
                 },
                 {
-                    "type": "origins:health",
+                    "type": "origins:relative_health",
                     "comparison": "<",
-                    "compare_to": 5
+                    "compare_to": 0.625
                 },
                 {
-                    "type": "origins:health",
+                    "type": "origins:relative_health",
                     "comparison": ">=",
-                    "compare_to": 2
+                    "compare_to": 0.25
                 }
             ]
         },
@@ -72,15 +72,34 @@
                     "compare_to": 0
                 },
                 {
-                    "type": "origins:health",
+                    "type": "origins:relative_health",
                     "comparison": "<",
-                    "compare_to": 2
+                    "compare_to": 0.25
                 }
             ]
         },
         "entity_action": {
             "type": "origins:execute_command",
             "command": "playsound skykid:beatfast player @s ~ ~ ~ 1 1"
+        }
+    },
+    "shaking": {
+        "type": "origins:shaking",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "skykid:armor_resource",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:relative_health",
+                    "comparison": "<",
+                    "compare_to": 0.625
+                }
+            ]
         }
     },
     "pencil_vision": {
@@ -96,9 +115,9 @@
                     "compare_to": 0
                 },
                 {
-                    "type": "origins:health",
+                    "type": "origins:relative_health",
                     "comparison": "<",
-                    "compare_to": 7
+                    "compare_to": 0.875
                 }
             ]
         }

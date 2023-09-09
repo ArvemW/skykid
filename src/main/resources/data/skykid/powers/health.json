@@ -29,7 +29,7 @@
       "value": -14,
       "update_health": true
     },
-    "tick_rate": 10,
+    "tick_rate": 5,
     "condition": {
       "type": "origins:resource",
       "resource": "skykid:health_resource",
@@ -46,7 +46,7 @@
       "value": -12,
       "update_health": true
     },
-    "tick_rate": 10,
+    "tick_rate": 5,
     "condition": {
       "type": "origins:and",
       "conditions": [
@@ -74,7 +74,7 @@
       "value": -10,
       "update_health": true
     },
-    "tick_rate": 10,
+    "tick_rate": 5,
     "condition": {
       "type": "origins:and",
       "conditions": [
@@ -101,7 +101,7 @@
       "operation": "addition",
       "value": -8
     },
-    "tick_rate": 10,
+    "tick_rate": 5,
     "condition": {
       "type": "origins:and",
       "conditions": [
