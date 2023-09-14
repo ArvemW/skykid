@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "values": [
+      "skykid:cape_white",
+      "skykid:cape_black",
+      "skykid:cape_red",
+      "skykid:cape_yellow",
+      "skykid:cape_cyan",
+      "skykid:cape_blue",
+      "skykid:cape_purple",
+      "skykid:cape_pink",
+      "skykid:cape_green"
+    ]
+  }
