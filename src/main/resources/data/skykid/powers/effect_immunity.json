@@ -1,0 +1,8 @@
+{
+  "type": "apoli:effect_immunity",
+  "effects": [
+    "minecraft:fire_resistance",
+    "minecraft:hunger",
+    "minecraft:poison"
+  ]
+}

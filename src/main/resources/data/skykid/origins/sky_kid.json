@@ -2,25 +2,30 @@
 	"powers": [
 		"skykid:light",
 		"skykid:depletion",
-		"skykid:armor",
-		"skykid:armor_2",
+		"skykid:night_light",
+		"skykid:darkness_bad",
+
 		"skykid:cape",
 		"skykid:wing_boost",
 		"skykid:shout",
 		"skykid:healing_call",
+
 		"skykid:child_height",
+		"skykid:armor",
+		"skykid:armor_2",
 		"skykid:health",
+
 		"skykid:lightweight",
-		"skykid:lightless",
-		"skykid:heartbeat",
 		"skykid:shield_restrict",
-		"skykid:night_light",
-		"skykid:darkness_bad",
-		"skykid:skykid_loot"
+		"skykid:lightless",
+
+		"skykid:heartbeat",
+		"skykid:skykid_loot",
+		"skykid:effect_immunity"
 	],
 	"icon": {
 		"item": "minecraft:red_candle"
 	},
-	"order": 1,
-	"impact": 2
+	"order": 10,
+	"impact": 3
 }

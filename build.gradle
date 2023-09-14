@@ -89,6 +89,7 @@ dependencies {
 
 	modImplementation "curse.maven:origins-391943:${project.origins_version}"
 	modImplementation "curse.maven:pehkui-319596:${pehkui_version}"
+	modImplementation "curse.maven:cloth-config-348521:${cloth_version}"
 }
 
 processResources {
