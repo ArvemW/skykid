@@ -1,5 +1,5 @@
 {
-    "origin.skykid.sky_kid.name": "Child of the Light",
+    "origin.skykid.sky_kid.name": "Sky Kid",
     "origin.skykid.sky_kid.description": "With the stars united, our light was infinite. But darkness came and the stars fell. A long time has passed... wake up Child of the Light, your adventure begins now.",
     "item.skykid.winged_light": "Winged Light",
     "item.skykid.ascended_light": "Light of Ascension",
@@ -51,5 +51,7 @@
     "subtitles.skykid.ghost_shout": "Sky Kid calls",
     "subtitles.skykid.whale_shout": "Sky Kid calls",
     "subtitles.skykid.jelly_shout": "Sky Kid calls",
-    "subtitles.skykid.manta_shout": "Sky Kid calls"
+    "subtitles.skykid.manta_shout": "Sky Kid calls",
+
+    "item_group.skykid.sky_group": "Sky: Origins"
 }

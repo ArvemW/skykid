@@ -2,8 +2,8 @@
 	"schemaVersion": 1,
 	"id": "skykid",
 	"version": "${version}",
-	"name": "Sky Kid",
-	"description": "This mod adds an Origin to be a Child of The Light from Sky: Children of the Light.",
+	"name": "Sky: Origins",
+	"description": "This mod adds an Origin to be a Sky Kid from Sky: Children of the Light.",
 	"authors": [
 		"Arvem"
 	],
@@ -17,36 +17,15 @@
 	"entrypoints": {
 		"main": [
 			{
-				"value": "arvem.skykid.Skykid",
-				"adapter": "kotlin"
-			}
-		],
-		"client": [
-			{
-				"value": "arvem.skykid.SkykidClient",
-				"adapter": "kotlin"
-			}
-		],
-		"fabric-datagen": [
-			{
-				"value": "arvem.skykid.SkykidDataGenerator",
-				"adapter": "kotlin"
+				"value": "arvem.skykid.Skykid"
 			}
 		]
 	},
-	"mixins": [
-      "skykid.mixins.json",
-		{
-			"config": "skykid.client.mixins.json",
-			"environment": "client"
-		}
-	],
 	"depends": {
-		"fabricloader": ">=0.14.21",
+		"fabricloader": ">=0.16.14",
 		"minecraft": "~1.20.1",
 		"java": ">=17",
-		"fabric-api": "*",
-		"fabric-language-kotlin": ">=1.9.0"
+		"fabric-api": "*"
 	},
 	"suggests": {
 		"another-mod": "*"
