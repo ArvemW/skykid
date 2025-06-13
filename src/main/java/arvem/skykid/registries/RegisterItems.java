@@ -2,7 +2,6 @@ package arvem.skykid.registries;
 
 import arvem.skykid.Skykid;
 import arvem.skykid.CapeMaterial;
-import com.mojang.logging.LogUtils;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.ArmorItem;

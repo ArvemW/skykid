@@ -42,8 +42,11 @@ dependencies {
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
-	// Fabric API. This is technically optional, but you probably want it anyway.
+	modApi "com.github.apace100:apoli:${project.apoli_version}"
+	include "com.github.apace100:apoli:${project.apoli_version}"
+
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+	modCompileOnlyApi "com.jamieswhiteshirt:reach-entity-attributes:${rea_version}"
 
 	modImplementation "curse.maven:origins-391943:${project.origins_version}"
 	modImplementation "curse.maven:pehkui-319596:${pehkui_version}"

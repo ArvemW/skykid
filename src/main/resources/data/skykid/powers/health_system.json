@@ -1,0 +1,92 @@
+{
+  "type": "origins:multiple",
+  "resource": {
+    "type": "origins:resource",
+    "name": "health_system_resource",
+    "min": 0,
+    "max": 6,
+    "start_value": 0,
+    "hud_render": {
+      "should_render": false
+    }
+  },
+  "reset": {
+    "type": "origins:action_on_callback",
+    "entity_action_respawned": {
+      "type": "origins:change_resource",
+      "resource": "skykid:health_system_resource",
+      "operation": "set",
+      "change": 0
+    },
+    "execute_chosen_when_orb": false
+  },
+  "health": {
+    "type": "origins:modify_attribute",
+    "attribute": "minecraft:generic.max_health",
+    "modifier": {
+      "operation": "set_base",
+      "resource": "skykid:health_system_resource",
+      "value": 0,
+      "modifier": {
+        "operation": "add_base_late",
+        "value": 6
+      }
+    },
+    "tick_rate": 5
+  },
+  "consume_winged_light": {
+    "type": "origins:active_self",
+    "key": {
+      "key": "key.use"
+    },
+    "hud_render": {
+      "should_render": false
+    },
+    "cooldown": 10,
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:change_resource",
+          "resource": "skykid:health_system_resource",
+          "operation": "add",
+          "change": 2
+        },
+        {
+          "type": "origins:equipped_item_action",
+          "equipment_slot": "mainhand",
+          "action": {
+            "type": "origins:consume",
+            "amount": 1
+          }
+        },
+        {
+          "type": "origins:play_sound",
+          "sound": "minecraft:entity.player.burp"
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "skykid:winged_light"
+            }
+          }
+        },
+        {
+          "type": "origins:resource",
+          "resource": "skykid:health_system_resource",
+          "comparison": "<",
+          "compare_to": 6
+        }
+      ]
+    },
+    "hidden": true
+  }
+}
