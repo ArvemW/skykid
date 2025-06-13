@@ -9,7 +9,7 @@
             "conditions": [
                 {
                     "type": "origins:resource",
-                    "resource": "skykid:armor_resource",
+                    "resource": "skykid:light_resource",
                     "comparison": "==",
                     "compare_to": 0
                 },
@@ -38,7 +38,7 @@
             "conditions": [
                 {
                     "type": "origins:resource",
-                    "resource": "skykid:armor_resource",
+                    "resource": "skykid:light_resource",
                     "comparison": "==",
                     "compare_to": 0
                 },
@@ -67,7 +67,7 @@
             "conditions": [
                 {
                     "type": "origins:resource",
-                    "resource": "skykid:armor_resource",
+                    "resource": "skykid:light_resource",
                     "comparison": "==",
                     "compare_to": 0
                 },
@@ -90,7 +90,7 @@
             "conditions": [
                 {
                     "type": "origins:resource",
-                    "resource": "skykid:armor_resource",
+                    "resource": "skykid:light_resource",
                     "comparison": "==",
                     "compare_to": 0
                 },
@@ -110,7 +110,7 @@
             "conditions": [
                 {
                     "type": "origins:resource",
-                    "resource": "skykid:armor_resource",
+                    "resource": "skykid:light_resource",
                     "comparison": "==",
                     "compare_to": 0
                 },

@@ -186,7 +186,7 @@
             },
             {
                 "type": "origins:change_resource",
-                "resource": "skykid:armor_resource",
+                "resource": "skykid:light_resource",
                 "change": -240
             },
             {
@@ -197,7 +197,7 @@
     },
     "condition": {
         "type": "origins:resource",
-        "resource": "skykid:armor_resource",
+        "resource": "skykid:light_resource",
         "comparison": ">=",
         "compare_to": 240
     },

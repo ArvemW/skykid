@@ -79,12 +79,12 @@
 		"type": "origins:action_over_time",
 		"entity_action": {
 			"type": "origins:change_resource",
-			"resource": "skykid:armor_resource",
+			"resource": "skykid:light_resource",
 			"change": -6
 		},
 		"rising_action": {
 			"type": "origins:change_resource",
-			"resource": "skykid:armor_resource",
+			"resource": "skykid:light_resource",
 			"change": -6
 		},
 		"interval": 1,

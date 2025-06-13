@@ -36,7 +36,7 @@
                 },
                 "action": {
                     "type": "origins:change_resource",
-                    "resource": "skykid:armor_resource",
+                    "resource": "skykid:light_resource",
                     "change": -6
                 }
             },
@@ -68,7 +68,7 @@
                 },
                 "action": {
                     "type": "origins:change_resource",
-                    "resource": "skykid:armor_resource",
+                    "resource": "skykid:light_resource",
                     "change": -3
                 }
             }
