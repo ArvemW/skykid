@@ -1,5 +1,6 @@
 {
 	"powers": [
+		"skykid:light_resource",
 		"skykid:light",
 		"skykid:depletion",
 		"skykid:night_light",

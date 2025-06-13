@@ -31,18 +31,6 @@
       },
       "interval": 2
    },
-   "resource": {
-      "type": "origins:resource",
-      "name": "light_resource",
-      "min": 0,
-      "max": 560,
-      "start_value": 560,
-      "hud_render": {
-         "should_render": true,
-         "sprite_location": "origins:textures/gui/resource_bar.png",
-         "bar_index": 7
-      }
-   },
    "light_management": {
       "type": "skykid:light_management",
       "resource": "skykid:light_resource"

@@ -2,10 +2,13 @@ package arvem.skykid.powers;
 
 
 import arvem.skykid.Skykid;
+import com.mojang.brigadier.context.CommandContext;
+import io.github.apace100.apoli.command.PowerTypeArgumentType;
 import io.github.apace100.apoli.component.PowerHolderComponent;
 import io.github.apace100.apoli.data.ApoliDataTypes;
 import io.github.apace100.apoli.power.Power;
 import io.github.apace100.apoli.power.PowerType;
+import io.github.apace100.apoli.power.PowerTypeReference;
 import io.github.apace100.apoli.power.factory.PowerFactory;
 import io.github.apace100.apoli.power.ResourcePower;
 import io.github.apace100.calio.data.SerializableData;
@@ -14,6 +17,7 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.tag.TagKey;
+import net.minecraft.server.command.ServerCommandSource;
 import net.minecraft.state.property.Properties;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.BlockPos;
@@ -34,26 +38,64 @@ public class LightManagementPower extends Power {
     private final Map<LightSourceType, Integer> lightSourceCache = new ConcurrentHashMap<>();
     private long lastCacheUpdate = 0;
     private static final long CACHE_DURATION = 20;
+    private SerializableData.Instance DATA;
     private long lastUpdateTick = 0;
     private int lastCalculatedGain = 0;
 
+    private ResourcePower lightResource;
 
-    public LightManagementPower(PowerType<?> type, LivingEntity entity) {
+
+    public LightManagementPower(PowerType<?> type, LivingEntity entity, SerializableData.Instance data) {
         super(type, entity);
-        setTicking(false);
+        setTicking(true);
+        if (!data.isPresent("resource")) {
+            Skykid.LOGGER.error("No resource provided for LightManagementPower.");
+            return;
+        }
+        DATA = data;
+
+        // Store the power type reference
+        PowerType<?> resourceType = data.get("resource");
+
+        // Try to initialize immediately first
+        tryInitializeResource(resourceType);
+    }
+
+    private void tryInitializeResource(PowerType<?> resourceType) {
+        if (entity == null || entity.getWorld() == null) {
+            return;
+        }
+
+        PowerHolderComponent component = PowerHolderComponent.KEY.get(entity);
+        if (component == null) {
+            return;
+        }
+
+        Power p = component.getPower(resourceType);
+        if (p instanceof ResourcePower) {
+            lightResource = (ResourcePower) p;
+            Skykid.LOGGER.info("Successfully initialized light resource power");
+        } else if (p != null) {
+            Skykid.LOGGER.error("Power provided is not a ResourcePower. Provided power is a " + p.getClass().getSimpleName() + " instead.");
+        }
     }
 
 
     @Override
     public void tick() {
-        if (!entity.getWorld().isClient) {
+        if (lightResource == null && !entity.getWorld().isClient) {
+            PowerType<?> resourceType = DATA.get("resource");
+            tryInitializeResource(resourceType);
+            return;
+        }
+
+        if (!entity.getWorld().isClient && lightResource != null) {
             int gainAmount = calculateLightGain();
             if (gainAmount > 0) {
-                // TODO: execute command from server /resource change entity skykid:light_resource gainAmount
-                Objects.requireNonNull(entity.getWorld().getServer()).getCommandManager().executeWithPrefix(
-                        entity.getWorld().getServer().getCommandSource().withSilent(),
-                        String.format("resource change " + entity.getUuidAsString() + " skykid:light_resource %d", gainAmount)
-                );
+                Skykid.LOGGER.info(String.valueOf(((lightResource.getValue() + gainAmount))));
+                lightResource.setValue(lightResource.getValue() + gainAmount);
+                PowerHolderComponent component = PowerHolderComponent.KEY.get(entity);
+                component.sync();
             }
         }
     }
@@ -225,10 +267,8 @@ public class LightManagementPower extends Power {
     public static PowerFactory<?> getFactory() {
         return new PowerFactory<>(
                 new Identifier("skykid", "light_management"),
-                new SerializableData().add("resource", ApoliDataTypes.POWER_TYPE),
-                data -> (type, player) -> new LightManagementPower(type, player)
+                new SerializableData().add("resource", ApoliDataTypes.POWER_TYPE, null),
+                data -> (type, player) -> new LightManagementPower(type, player, data)
         ).allowCondition();
     }
-
-
 }

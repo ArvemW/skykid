@@ -12,7 +12,7 @@ public class Skykid implements ModInitializer {
     public static final String MODID = "skykid";
     public static final String MODNAME = "Sky Kid";
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(MODNAME);
+    public static final Logger LOGGER = LoggerFactory.getLogger(MODNAME);
 
     @Override
     public void onInitialize() {
