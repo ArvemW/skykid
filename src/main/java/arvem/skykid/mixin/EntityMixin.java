@@ -6,6 +6,7 @@ import io.github.apace100.apoli.component.PowerHolderComponent;
 import io.github.apace100.apoli.power.Power;
 import io.github.apace100.apoli.power.PowerTypeReference;
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.LivingEntity;
 import net.minecraft.util.Identifier;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
@@ -26,8 +27,11 @@ public abstract class EntityMixin {
 
     @Inject(method = "isFireImmune", at = @At("HEAD"), cancellable = true)
     private void makeFullyFireImmune(CallbackInfoReturnable<Boolean> cir) {
-        if(PowerHolderComponent.KEY.get(this).hasPower(FIRE_IMMUNITY) && !isInLava()) {
-            cir.setReturnValue(true);
+        Entity entity = (Entity)(Object)this;
+        if (entity instanceof LivingEntity livingEntity){
+            if(PowerHolderComponent.KEY.get(livingEntity).hasPower(FIRE_IMMUNITY) && !isInLava()) {
+                cir.setReturnValue(true);
+            }
         }
     }
 }

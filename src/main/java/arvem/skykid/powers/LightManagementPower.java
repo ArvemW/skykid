@@ -19,6 +19,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.BlockPos;
 
 import java.util.Arrays;
+import java.util.EnumMap;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.Predicate;
@@ -27,15 +28,14 @@ import static arvem.skykid.Skykid.tryInitializeResource;
 import static net.minecraft.registry.Registries.ITEM;
 
 public class LightManagementPower extends Power {
-    private static final int RADIUS = 2;
+    private static final int RADIUS = 3;
     private static final int UPDATE_INTERVAL = 5;
 
     private final Map<LightSourceType, Integer> lightSourceCache = new ConcurrentHashMap<>();
     private long lastCacheUpdate = 0;
-    private static final long CACHE_DURATION = 20;
+    private static final long CACHE_DURATION = 10;
     private SerializableData.Instance DATA;
     private long lastUpdateTick = 0;
-    private int lastCalculatedGain = 0;
 
     private ResourcePower resourcePower;
 
@@ -62,7 +62,7 @@ public class LightManagementPower extends Power {
         if (!entity.getWorld().isClient && resourcePower != null) {
             int gainAmount = calculateLightGain();
             if (gainAmount > 0) {
-                Skykid.LOGGER.info(String.valueOf(((resourcePower.getValue() + gainAmount))));
+                Skykid.LOGGER.debug(String.valueOf(((resourcePower.getValue() + gainAmount))));
                 resourcePower.setValue(resourcePower.getValue() + gainAmount);
                 PowerHolderComponent component = PowerHolderComponent.KEY.get(entity);
                 component.sync();
@@ -79,7 +79,7 @@ public class LightManagementPower extends Power {
         }
         lastUpdateTick = currentTick;
 
-        int blockLightGain = 0;
+        int blockLightGain;
         // Check for lit candle cakes first (highest priority)
         if (hasNearbyBlock(block ->
                 block.isIn(TagKey.of(RegistryKeys.BLOCK, Identifier.of("minecraft", "candle_cakes")))
@@ -90,12 +90,9 @@ public class LightManagementPower extends Power {
             blockLightGain = calculateBlockLightGain();
         }
 
-        // Calculate item-based light gain
         int itemLightGain = calculateItemLightGain();
 
-        // Combine both sources
-        lastCalculatedGain = blockLightGain + itemLightGain;
-        return lastCalculatedGain;
+        return blockLightGain + itemLightGain;
     }
 
     private int calculateBlockLightGain() {
@@ -186,48 +183,79 @@ public class LightManagementPower extends Power {
     private int countNearbyLightSources(LightSourceType type) {
         long currentTime = entity.getWorld().getTime();
 
-        if (currentTime - lastCacheUpdate < CACHE_DURATION) {
-            return lightSourceCache.getOrDefault(type, 0);
+        if (currentTime - lastCacheUpdate >= CACHE_DURATION) {
+            lightSourceCache.clear();
+            lightSourceCache.putAll(scanNearbyLightSources());
+            lastCacheUpdate = currentTime;
         }
 
-        lightSourceCache.clear();
-        lastCacheUpdate = currentTime;
+        return lightSourceCache.getOrDefault(type, 0);
 
+    }
+
+    private Map<LightSourceType, Integer> scanNearbyLightSources() {
+        Map<LightSourceType, Integer> counts = new EnumMap<>(LightSourceType.class);
         BlockPos entityPos = entity.getBlockPos();
-        int count = 0;
+        int radiusSquared = RADIUS * RADIUS;
 
         for (int x = -RADIUS; x <= RADIUS; x++) {
             for (int y = -RADIUS; y <= RADIUS; y++) {
                 for (int z = -RADIUS; z <= RADIUS; z++) {
+                    if (x*x + y*y + z*z > radiusSquared) {
+                        continue;
+                    }
+
                     BlockPos checkPos = entityPos.add(x, y, z);
                     BlockState state = entity.getWorld().getBlockState(checkPos);
-                    int lightLevel = state.getLuminance();
-
-                    if (isLightSourceType(state, lightLevel, type)) {
-                        count++;
+                    for (LightSourceType type : LightSourceType.values()) {
+                        if (isValidLightSource(state, type)) {
+                            counts.merge(type, 1, Integer::sum);
+                        }
                     }
                 }
             }
         }
-
-        lightSourceCache.put(type, count);
-        return count;
+        return counts;
     }
 
-    private boolean isLightSourceType(BlockState state, int lightLevel, LightSourceType type) {
+
+    private boolean isValidLightSource(BlockState state, LightSourceType type) {
+        boolean valid = false;
         switch (type) {
             case PRIME:
                 // Prime sources: Glowstone, Sea Lantern, etc.
-                return lightLevel >= 15;
+                if (state.isIn(TagKey.of(RegistryKeys.BLOCK, Identifier.of("skykid", "candles")))){
+                    // 4 candles that are lit
+                    valid = state.get(Properties.LIT) && state.get(Properties.CANDLES) >= 4;
+                }
+                else if (state.isIn(TagKey.of(RegistryKeys.BLOCK, Identifier.of("skykid", "prime_sources")))){
+                    valid = true;
+                }
+                break;
             case AVERAGE:
                 // Average sources: Torches, Lanterns, etc.
-                return lightLevel >= 12 && lightLevel < 15;
+                if (state.isIn(TagKey.of(RegistryKeys.BLOCK, Identifier.of("skykid", "candles")))){
+                    // 2 or 3 candles that are lit
+                    valid = state.get(Properties.LIT) && (state.get(Properties.CANDLES) == 2 || state.get(Properties.CANDLES) == 3);
+                }
+                else if (state.isIn(TagKey.of(RegistryKeys.BLOCK, Identifier.of("skykid", "average_sources")))){
+                    valid = true;
+                }
+                break;
             case WEAK:
                 // Weak sources: Redstone Torch, Soul Lantern, etc.
-                return lightLevel >= 7 && lightLevel < 12;
+                if (state.isIn(TagKey.of(RegistryKeys.BLOCK, Identifier.of("skykid", "candles")))){
+                    // 1 candle that is lit
+                    valid = state.get(Properties.LIT) && state.get(Properties.CANDLES) <= 1;
+                }
+                else if (state.isIn(TagKey.of(RegistryKeys.BLOCK, Identifier.of("skykid", "weak_sources")))){
+                    valid = true;
+                }
+                break;
             default:
-                return false;
+                break;
         }
+        return valid;
     }
 
     private enum LightSourceType {

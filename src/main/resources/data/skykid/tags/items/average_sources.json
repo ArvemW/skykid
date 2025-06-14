@@ -6,6 +6,7 @@
     "minecraft:torch",
     "minecraft:lantern",
     "minecraft:shroomlight",
-    "minecraft:glowstone"
+    "minecraft:glowstone",
+    "minecraft:lava_bucket"
     ]
   }
