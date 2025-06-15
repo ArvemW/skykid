@@ -111,39 +111,29 @@ public class LightManagementPower extends Power {
 
         int totalGain = 0;
         int blocksUsed = 0;
-
+        int maxSources = 3;
+        // TODO: Allow ascended skykid to be able to use 4 block sources at one time
         for (LightValue value : values) {
-            int remaining = Math.min(3 - blocksUsed, value.count);
+            int remaining = Math.min(maxSources - blocksUsed, value.count);
             if (remaining > 0) {
                 totalGain += remaining * value.gain;
                 blocksUsed += remaining;
             }
-            if (blocksUsed >= 3) break;
+            if (blocksUsed >= maxSources) break;
         }
 
         return totalGain;
     }
 
     private int calculateItemLightGain() {
-        int gainFromItems = 0;
-
         ItemStack mainHand = entity.getMainHandStack();
-        gainFromItems += getItemLightGain(mainHand);
-
         ItemStack offHand = entity.getOffHandStack();
-        gainFromItems += getItemLightGain(offHand);
 
-        return gainFromItems;
+        return Math.max(getItemLightGain(mainHand), getItemLightGain(offHand));
     }
 
     private int getItemLightGain(ItemStack stack) {
         if (stack.isEmpty()) return 0;
-
-        // Top tier light sources (4 gain)
-        if (stack.isOf(ITEM.get(Identifier.of(Skykid.MODID, "winged_light"))) ||
-                stack.isOf(ITEM.get(Identifier.of(Skykid.MODID, "ascended_light")))) {
-            return 4;
-        }
 
         // Prime sources (3 gain)
         if (stack.isIn(TagKey.of(RegistryKeys.ITEM, Identifier.of(Skykid.MODID, "prime_sources")))) {
