@@ -1,7 +1,6 @@
 package arvem.skykid.mixin;
 
 import arvem.skykid.Skykid;
-import arvem.skykid.powers.LightArmorPower;
 import io.github.apace100.apoli.component.PowerHolderComponent;
 import io.github.apace100.apoli.power.Power;
 import io.github.apace100.apoli.power.PowerTypeReference;

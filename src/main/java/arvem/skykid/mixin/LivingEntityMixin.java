@@ -5,12 +5,12 @@ import arvem.skykid.powers.LightArmorPower;
 import io.github.apace100.apoli.component.PowerHolderComponent;
 import io.github.apace100.apoli.power.Power;
 import io.github.apace100.apoli.power.PowerTypeReference;
-import net.minecraft.entity.Entity;
-import net.minecraft.entity.EntityType;
+import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.damage.DamageSource;
+import net.minecraft.entity.attribute.EntityAttributes;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.util.Identifier;
-import net.minecraft.world.World;
+import net.minecraft.util.math.MathHelper;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
@@ -34,6 +34,28 @@ public abstract class LivingEntityMixin {
             return p.calculateRemainingDamage(amount);
         }
         return amount;
+    }
+
+    @Inject(method = "getArmor", at = @At("RETURN"), cancellable = true)
+    private void modifyArmorValue(CallbackInfoReturnable<Integer> cir) {
+        LivingEntity entity = (LivingEntity) (Object) this;
+
+        if (PowerHolderComponent.KEY.get(entity).hasPower(LIGHT_ARMOR)) {
+            // Get the current armor value
+            int currentArmor = cir.getReturnValue();
+
+            var chestStack = entity.getEquippedStack(EquipmentSlot.CHEST);
+            var legStack = entity.getEquippedStack(EquipmentSlot.LEGS);
+
+            if (chestStack.getItem() instanceof ArmorItem chestArmor) {
+                currentArmor -= chestArmor.getProtection();
+            }
+            if (legStack.getItem() instanceof ArmorItem legArmor) {
+                currentArmor -= legArmor.getProtection();
+            }
+
+            cir.setReturnValue(currentArmor);
+        }
     }
 
     @Inject(method = "computeFallDamage", at = @At("HEAD"), cancellable = true)
