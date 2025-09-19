@@ -2,10 +2,35 @@
 {
     "replace": false,
     "values": [
-    "minecraft:glow_lichen",
-    "minecraft:glow_berries",
-    "minecraft:glow_item_frame",
-    "minecraft:glowstone_dust",
-    "minecraft:glow_ink_sac"
+        "minecraft:glow_lichen",
+        "minecraft:glow_berries",
+        "minecraft:glow_item_frame",
+        "minecraft:glowstone_dust",
+        "minecraft:glow_ink_sac",
+        "minecraft:crying_obsidian",
+        {
+            "id": "#c:dusts/glowstone",
+            "required": false
+        },
+        {
+            "id": "#c:small_dusts/glowstone",
+            "required": false
+        },
+        {
+            "id": "techreborn:glowstone_small_dust",
+            "required": false
+        },
+        {
+            "id": "biomesoplenty:glowshroom",
+            "required": false
+        },
+        {
+            "id": "foodtxf:glass_of_lava",
+            "required": false
+        },
+        {
+            "id": "#c:obsidians/crying",
+            "required": false
+        }
     ]
   }

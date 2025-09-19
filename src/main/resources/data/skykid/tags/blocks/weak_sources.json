@@ -2,7 +2,16 @@
 {
     "replace": false,
     "values": [
-    "minecraft:glow_lichen",
-    "minecraft:cave_vines_plant"
+        "minecraft:glow_lichen",
+        "minecraft:cave_vines_plant",
+        "minecraft:crying_obsidian",
+        {
+            "id": "biomesoplenty:glowshroom",
+            "required": false
+        },
+        {
+            "id": "#c:obsidians/crying",
+            "required": false
+        }
     ]
   }

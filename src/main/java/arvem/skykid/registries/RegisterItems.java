@@ -40,7 +40,6 @@ public class RegisterItems {
 
     // Light items
     private static final Item WINGED_LIGHT   = new Item(new Item.Settings().fireproof().maxCount(1));
-    private static final Item ASCENDED_LIGHT = new Item(new Item.Settings().fireproof().maxCount(1));
 
     public static void registerItemGroup() {
         Registry.register(
@@ -67,13 +66,6 @@ public class RegisterItems {
                 WINGED_LIGHT);
         ItemGroupEvents.modifyEntriesEvent(SKY_GROUP)
                 .register(entries -> entries.add(WINGED_LIGHT));
-
-        // Register ascended_light
-        Registry.register(Registries.ITEM,
-                Identifier.of(Skykid.MODID, "ascended_light"),
-                ASCENDED_LIGHT);
-        ItemGroupEvents.modifyEntriesEvent(SKY_GROUP)
-                .register(entries -> entries.add(ASCENDED_LIGHT));
 
         // Register all capes
         registerCape("cape_default", CAPE_DEFAULT);

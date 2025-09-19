@@ -1,3 +1,7 @@
 {
-  "type": "origins:simple"
+  "type": "skykid:kinetic_immunity",
+  "condition": {
+    "type": "origins:advancement",
+    "advancement": "minecraft:end/kill_dragon"
+  }
 }

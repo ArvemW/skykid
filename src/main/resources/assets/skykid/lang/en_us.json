@@ -41,6 +41,8 @@
     "power.skykid.darkness_bad.description": "You are weaker in dark areas unless holding a decent light source. As well, the Darkness effect from the Deep Dark tarnishes your Light.",
     "power.skykid.effect_immunity.name": "§nEthereal Form",
     "power.skykid.effect_immunity.description": "As a Child of the Light, your ethereal form is incompatible with the magic of Fire Resistance, making it unusable. Your sustenance from the light also makes you immune to Hunger and Poison.",
+    "power.skykid.kinetic_immunity.name": "Rising Up",
+    "power.skykid.kinetic_immunity.description": "After defeating the Ender Dragon, reach an 'Ascended' state; you'll become immune to any kinetic damage.",
 
     "death.attack.lightout": "%1$s ran out of light",
     "death.attack.lightout.player": "%1$s ran out of light whilst fighting %2$s",

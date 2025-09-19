@@ -7,10 +7,8 @@ import io.github.apace100.apoli.power.Power;
 import io.github.apace100.apoli.power.PowerTypeReference;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.math.MathHelper;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
@@ -23,9 +21,6 @@ public abstract class LivingEntityMixin {
 
     @Unique
     private static final PowerTypeReference<Power> LIGHT_ARMOR = new PowerTypeReference<>(Identifier.of(Skykid.MODID, "light_armor"));
-
-    @Unique
-    private static final PowerTypeReference<Power> KINETIC_IMMUNITY = new PowerTypeReference<>(Identifier.of(Skykid.MODID, "kinetic_immunity"));
 
     @ModifyVariable(method = "damage", at = @At("HEAD"), ordinal = 0, argsOnly = true)
     private float modifyDamage(float amount) {
@@ -55,14 +50,6 @@ public abstract class LivingEntityMixin {
             }
 
             cir.setReturnValue(currentArmor);
-        }
-    }
-
-    @Inject(method = "computeFallDamage", at = @At("HEAD"), cancellable = true)
-    private void preventFallDamage(float fallDistance, float damageMultiplier, CallbackInfoReturnable<Integer> cir) {
-        if (PowerHolderComponent.KEY.get(this).hasPower(KINETIC_IMMUNITY)) {
-            cir.setReturnValue(0);
-            cir.cancel();
         }
     }
 }

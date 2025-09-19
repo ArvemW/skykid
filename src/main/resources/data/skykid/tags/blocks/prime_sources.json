@@ -2,10 +2,66 @@
 {
     "replace": false,
     "values": [
-    "minecraft:soul_campfire",
-    "minecraft:soul_torch",
-    "minecraft:soul_wall_torch",
-    "minecraft:soul_lantern",
-    "minecraft:soul_fire"
+        "minecraft:soul_campfire",
+        "minecraft:soul_torch",
+        "minecraft:soul_wall_torch",
+        "minecraft:soul_lantern",
+        "minecraft:soul_fire",
+        {
+            "id": "aether:ambrosium_torch",
+            "required": false
+        },
+        {
+            "id": "rubinated_nether:ruby_lava_lamp",
+            "required": false
+        },
+        {
+            "id": "rubinated_nether:ruby_lantern",
+            "required": false
+        },
+        {
+            "id": "rubinated_nether:ruby_chandelier",
+            "required": false
+        },
+        {
+            "id": "netherexp:soul_jack_o_lantern",
+            "required": false
+        },
+        {
+            "id": "netherexp:soul_ghoul_o_lantern",
+            "required": false
+        },
+        {
+            "id": "pigsteel:pigsteel_soul_lantern",
+            "required": false
+        },
+        {
+            "id": "pigsteel:infected_pigsteel_soul_lantern",
+            "required": false
+        },
+        {
+            "id": "pigsteel:corrupted_pigsteel_soul_lantern",
+            "required": false
+        },
+        {
+            "id": "pigsteel:zombified_pigsteel_soul_lantern",
+            "required": false
+        },
+        {
+            "id": "pigsteel:waxed_pigsteel_soul_lantern",
+            "required": false
+        },
+        {
+            "id": "pigsteel:waxed_infected_pigsteel_soul_lantern",
+            "required": false
+        },
+        {
+            "id": "pigsteel:waxed_corrupted_pigsteel_soul_lantern",
+            "required": false
+        },
+        {
+            "id": "pigsteel:waxed_zombified_pigsteel_soul_lantern",
+            "required": false
+        }
     ]
   }

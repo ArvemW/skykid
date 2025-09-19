@@ -22,7 +22,9 @@
 
 		"skykid:heartbeat",
 		"skykid:skykid_loot",
-		"skykid:effect_immunity"
+		"skykid:effect_immunity",
+
+		"skykid:kinetic_immunity"
 	],
 	"icon": {
 		"item": "minecraft:red_candle"

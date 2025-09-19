@@ -36,8 +36,6 @@ public class Skykid implements ModInitializer {
 
         Power p = component.getPower(resourceType);
         if (p instanceof ResourcePower) {
-
-            Skykid.LOGGER.info("Successfully initialized light resource power");
             return (ResourcePower)p;
         } else if (p != null) {
             Skykid.LOGGER.error("Power provided is not a ResourcePower. Provided power is a " + p.getClass().getSimpleName() + " instead.");

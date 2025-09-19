@@ -2,11 +2,92 @@
 {
     "replace": false,
     "values": [
-    "minecraft:campfire",
-    "minecraft:torch",
-    "minecraft:lantern",
-    "minecraft:shroomlight",
-    "minecraft:glowstone",
-    "minecraft:lava_bucket"
+        "minecraft:campfire",
+        "minecraft:torch",
+        "minecraft:lantern",
+        "minecraft:shroomlight",
+        "minecraft:glowstone",
+        "minecraft:jack_o_lantern",
+        "minecraft:lava_bucket",
+        {
+            "id": "#c:buckets/lava",
+            "required": false
+        },
+        {
+            "id": "#c:pumpkins/jack_o_lanterns",
+            "required": false
+        },
+        {
+            "id": "#another_furniture:lamps",
+            "required": false
+        },
+        {
+            "id": "galosphere:amethyst_lamp",
+            "required": false
+        },
+        {
+            "id": "galosphere:allurite_lamp",
+            "required": false
+        },
+        {
+            "id": "galosphere:lumiere_lamp",
+            "required": false
+        },
+        {
+            "id": "galosphere:pink_salt_lamp",
+            "required": false
+        },
+        {
+            "id": "galosphere:chandelier",
+            "required": false
+        },
+        {
+            "id": "netherexp:ghoul_o_lantern",
+            "required": false
+        },
+        {
+            "id": "pigsteel:pigsteel_lantern",
+            "required": false
+        },
+        {
+            "id": "pigsteel:infected_pigsteel_lantern",
+            "required": false
+        },
+        {
+            "id": "pigsteel:corrupted_pigsteel_lantern",
+            "required": false
+        },
+        {
+            "id": "pigsteel:zombified_pigsteel_lantern",
+            "required": false
+        },
+        {
+            "id": "pigsteel:waxed_pigsteel_lantern",
+            "required": false
+        },
+        {
+            "id": "pigsteel:waxed_infected_pigsteel_lantern",
+            "required": false
+        },
+        {
+            "id": "pigsteel:waxed_corrupted_pigsteel_lantern",
+            "required": false
+        },
+        {
+            "id": "pigsteel:waxed_zombified_pigsteel_lantern",
+            "required": false
+        },
+        {
+            "id": "exposure:lightroom",
+            "required": false
+        },
+        {
+            "id": "netherexp:lightspores",
+            "required": false
+        },
+        {
+            "id": "meadow:oil_lantern",
+            "required": false
+        }
     ]
   }
