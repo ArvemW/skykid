@@ -64,7 +64,8 @@ public class LightArmorPower extends Power {
 
         resourcePower.setValue(Math.round(Math.max(0, newResourceValue)));
         if (!entity.getWorld().isClient && entity.isAlive()) {
-            PowerHolderComponent.syncPower(entity, this.type);
+            PowerHolderComponent component = PowerHolderComponent.KEY.get(entity);
+            component.sync();
         }
         return remainingDamage;
     }
