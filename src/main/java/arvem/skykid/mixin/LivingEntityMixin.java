@@ -7,9 +7,12 @@ import io.github.apace100.apoli.power.Power;
 import io.github.apace100.apoli.power.PowerTypeReference;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.damage.DamageSource;
+import net.minecraft.entity.damage.DamageTypes;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.util.Identifier;
 import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -19,13 +22,23 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 @Mixin(LivingEntity.class)
 public abstract class LivingEntityMixin {
 
+    @Shadow public int hurtTime;
     @Unique
     private static final PowerTypeReference<Power> LIGHT_ARMOR = new PowerTypeReference<>(Identifier.of(Skykid.MODID, "light_armor"));
 
     @ModifyVariable(method = "damage", at = @At("HEAD"), ordinal = 0, argsOnly = true)
-    private float modifyDamage(float amount) {
-        if (PowerHolderComponent.KEY.get(this).hasPower(LIGHT_ARMOR)) {
-            LightArmorPower p = (LightArmorPower) PowerHolderComponent.KEY.get(this).getPower(LIGHT_ARMOR);
+    private float modifyDamage(float amount, DamageSource source) {
+        LivingEntity entity = (LivingEntity) (Object) this;
+        if (PowerHolderComponent.KEY.get(entity).hasPower(LIGHT_ARMOR)) {
+            if (hurtTime > 0) {
+                return 0;
+            }
+
+            if (source.isOf(DamageTypes.LAVA)) {
+                amount = amount * 3;
+            }
+
+            LightArmorPower p = (LightArmorPower) PowerHolderComponent.KEY.get(entity).getPower(LIGHT_ARMOR);
             return p.calculateRemainingDamage(amount);
         }
         return amount;

@@ -36,9 +36,14 @@ public class LightArmorPower extends Power {
     }
 
     public float calculateRemainingDamage(float damageAmount) {
-        if (resourcePower == null){
+        if (resourcePower == null && DATA != null) {
             resourcePower = tryInitializeResource(entity, DATA.get("resource"));
+            // If still null after trying to initialize, return full damage
+            if (resourcePower == null) {
+                return damageAmount;
+            }
         }
+
         if (resourcePower == null || damageAmount <= 0 || entity == null) {
             return damageAmount;
         }
@@ -58,13 +63,10 @@ public class LightArmorPower extends Power {
         }
 
         resourcePower.setValue(Math.round(Math.max(0, newResourceValue)));
-        syncPowerHolder();
+        if (!entity.getWorld().isClient && entity.isAlive()) {
+            PowerHolderComponent.syncPower(entity, this.type);
+        }
         return remainingDamage;
-    }
-
-    private void syncPowerHolder() {
-        PowerHolderComponent component = PowerHolderComponent.KEY.get(entity);
-        component.sync();
     }
 
 

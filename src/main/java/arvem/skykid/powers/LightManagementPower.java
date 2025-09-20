@@ -25,7 +25,6 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.Predicate;
 
 import static arvem.skykid.Skykid.tryInitializeResource;
-import static net.minecraft.registry.Registries.ITEM;
 
 public class LightManagementPower extends Power {
     private static final int RADIUS = 3;
@@ -45,28 +44,38 @@ public class LightManagementPower extends Power {
         setTicking(true);
         if (!data.isPresent("resource")) {
             Skykid.LOGGER.error("No resource provided for LightManagementPower.");
-            return;
+            throw new IllegalArgumentException("Resource is required for LightManagementPower");
         }
-        DATA = data;
-        resourcePower = tryInitializeResource(entity, data.get("resource"));
-    }
+        this.DATA = data;
+        this.resourcePower = tryInitializeResource(entity, data.get("resource"));
+        if (this.resourcePower == null) {
+            Skykid.LOGGER.debug("Failed to initialize resource power initially - will retry during tick");
+        }
 
+    }
 
     @Override
     public void tick() {
-        if (resourcePower == null && !entity.getWorld().isClient) {
-            tryInitializeResource(entity, DATA.get("resource"));
+        if (entity == null || entity.getWorld() == null || entity.getWorld().isClient) {
             return;
         }
 
-        if (!entity.getWorld().isClient && resourcePower != null) {
-            int gainAmount = calculateLightGain();
-            if (gainAmount > 0) {
-                Skykid.LOGGER.debug(String.valueOf(((resourcePower.getValue() + gainAmount))));
-                resourcePower.setValue(resourcePower.getValue() + gainAmount);
-                PowerHolderComponent component = PowerHolderComponent.KEY.get(entity);
-                component.sync();
+        if (resourcePower == null && DATA != null) {
+            resourcePower = tryInitializeResource(entity, DATA.get("resource"));
+            if (resourcePower == null) {
+                if (entity.age % 20 == 0) { // Only log every second to reduce spam
+                    Skykid.LOGGER.debug("Failed to initialize resource power during tick for entity: {}", entity);
+                }
+                return;
             }
+        }
+
+        int gainAmount = calculateLightGain();
+        if (gainAmount > 0) {
+            int newValue = resourcePower.getValue() + gainAmount;
+            resourcePower.setValue(newValue);
+            PowerHolderComponent component = PowerHolderComponent.KEY.get(entity);
+            component.sync();
         }
     }
 
@@ -112,7 +121,6 @@ public class LightManagementPower extends Power {
         int totalGain = 0;
         int blocksUsed = 0;
         int maxSources = 3;
-        // TODO: Allow ascended skykid to be able to use 4 block sources at one time
         for (LightValue value : values) {
             int remaining = Math.min(maxSources - blocksUsed, value.count);
             if (remaining > 0) {

@@ -34,12 +34,23 @@ public class Skykid implements ModInitializer {
 
         PowerHolderComponent component = PowerHolderComponent.KEY.get(entity);
 
-        Power p = component.getPower(resourceType);
-        if (p instanceof ResourcePower) {
-            return (ResourcePower)p;
-        } else if (p != null) {
-            Skykid.LOGGER.error("Power provided is not a ResourcePower. Provided power is a " + p.getClass().getSimpleName() + " instead.");
+        try {
+            Power p = component.getPower(resourceType);
+            if (p instanceof ResourcePower rp) {
+                return rp;
+            } else if (p != null) {
+                LOGGER.error("Power provided is not a ResourcePower. Provided power is a {} instead.", p.getClass().getSimpleName());
+            } else {
+                // Only log this warning if we're on the server side to reduce spam
+                if (!entity.getWorld().isClient && entity.age % 20 == 0) {
+                    LOGGER.debug("Power is null for resource type: {}", resourceType.getIdentifier());
+                }
+            }
+        } catch (Exception e) {
+            LOGGER.error("Error initializing resource power: {}", e.getMessage());
         }
+
         return null;
+
     }
 }
